@@ -1,0 +1,2227 @@
+BCSymbolMap Version: 2.0
+-[MSALInteractiveRequest initWithParameters:extraScopesToConsent:behavior:tokenCache:error:]
+-[MSALInteractiveRequest run:]
+___30-[MSALInteractiveRequest run:]_block_invoke
+___30-[MSALInteractiveRequest run:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.11
+___destroy_helper_block_.12
+-[MSALInteractiveRequest acquireToken:]
+___39-[MSALInteractiveRequest acquireToken:]_block_invoke
+___copy_helper_block_.19
+___destroy_helper_block_.20
+-[MSALInteractiveRequest acquireTokenImpl:]
+___43-[MSALInteractiveRequest acquireTokenImpl:]_block_invoke
+___copy_helper_block_.111
+___destroy_helper_block_.112
+-[MSALInteractiveRequest tokenRequest]
+-[MSALInteractiveRequest getTelemetryAPIEvent]
+-[MSALInteractiveRequest validateClaims:error:]
+-[MSALInteractiveRequest .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.14
+___block_descriptor_tmp.22
+_OBJC_IVAR_$_MSALInteractiveRequest._webviewConfig
+_OBJC_IVAR_$_MSALInteractiveRequest._code
+___block_descriptor_tmp.114
+-[MSALRequestParameters setScopesFromArray:]
+-[MSALRequestParameters msidConfiguration]
+-[MSALRequestParameters setCloudAuthorityWithCloudHostName:]
+-[MSALRequestParameters unvalidatedAuthority]
+-[MSALRequestParameters setUnvalidatedAuthority:]
+-[MSALRequestParameters cloudAuthority]
+-[MSALRequestParameters setCloudAuthority:]
+-[MSALRequestParameters validateAuthority]
+-[MSALRequestParameters setValidateAuthority:]
+-[MSALRequestParameters extendedLifetimeEnabled]
+-[MSALRequestParameters setExtendedLifetimeEnabled:]
+-[MSALRequestParameters scopes]
+-[MSALRequestParameters setScopes:]
+-[MSALRequestParameters redirectUri]
+-[MSALRequestParameters setRedirectUri:]
+-[MSALRequestParameters loginHint]
+-[MSALRequestParameters setLoginHint:]
+-[MSALRequestParameters clientId]
+-[MSALRequestParameters setClientId:]
+-[MSALRequestParameters extraQueryParameters]
+-[MSALRequestParameters setExtraQueryParameters:]
+-[MSALRequestParameters claims]
+-[MSALRequestParameters setClaims:]
+-[MSALRequestParameters prompt]
+-[MSALRequestParameters setPrompt:]
+-[MSALRequestParameters account]
+-[MSALRequestParameters setAccount:]
+-[MSALRequestParameters apiId]
+-[MSALRequestParameters setApiId:]
+-[MSALRequestParameters sliceParameters]
+-[MSALRequestParameters setSliceParameters:]
+-[MSALRequestParameters webviewType]
+-[MSALRequestParameters setWebviewType:]
+-[MSALRequestParameters customWebview]
+-[MSALRequestParameters setCustomWebview:]
+-[MSALRequestParameters correlationId]
+-[MSALRequestParameters setCorrelationId:]
+-[MSALRequestParameters logComponent]
+-[MSALRequestParameters setLogComponent:]
+-[MSALRequestParameters telemetryRequestId]
+-[MSALRequestParameters setTelemetryRequestId:]
+-[MSALRequestParameters msidOAuthFactory]
+-[MSALRequestParameters setMsidOAuthFactory:]
+-[MSALRequestParameters .cxx_destruct]
+_OBJC_IVAR_$_MSALRequestParameters._cloudAuthority
+_OBJC_IVAR_$_MSALRequestParameters._unvalidatedAuthority
+_OBJC_IVAR_$_MSALRequestParameters._validateAuthority
+_OBJC_IVAR_$_MSALRequestParameters._extendedLifetimeEnabled
+_OBJC_IVAR_$_MSALRequestParameters._scopes
+_OBJC_IVAR_$_MSALRequestParameters._redirectUri
+_OBJC_IVAR_$_MSALRequestParameters._loginHint
+_OBJC_IVAR_$_MSALRequestParameters._clientId
+_OBJC_IVAR_$_MSALRequestParameters._extraQueryParameters
+_OBJC_IVAR_$_MSALRequestParameters._claims
+_OBJC_IVAR_$_MSALRequestParameters._prompt
+_OBJC_IVAR_$_MSALRequestParameters._account
+_OBJC_IVAR_$_MSALRequestParameters._apiId
+_OBJC_IVAR_$_MSALRequestParameters._sliceParameters
+_OBJC_IVAR_$_MSALRequestParameters._webviewType
+_OBJC_IVAR_$_MSALRequestParameters._customWebview
+_OBJC_IVAR_$_MSALRequestParameters._correlationId
+_OBJC_IVAR_$_MSALRequestParameters._logComponent
+_OBJC_IVAR_$_MSALRequestParameters._telemetryRequestId
+_OBJC_IVAR_$_MSALRequestParameters._msidOAuthFactory
+l_OBJC_PROTOCOL_$_MSIDRequestContext
+l_OBJC_LABEL_PROTOCOL_$_MSIDRequestContext
+-[MSALAccountId initWithHomeAccountIdentifier:uid:utid:]
+-[MSALAccountId initWithLocalAccountIdentifier:objectId:tenantId:]
+-[MSALAccountId copyWithZone:]
+-[MSALAccountId hash]
+-[MSALAccountId identifier]
+-[MSALAccountId objectId]
+-[MSALAccountId tenantId]
+-[MSALAccountId .cxx_destruct]
+_OBJC_IVAR_$_MSALAccountId._identifier
+_OBJC_IVAR_$_MSALAccountId._objectId
+_OBJC_IVAR_$_MSALAccountId._tenantId
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
++[MSALErrorConverter load]
++[MSALErrorConverter initialize]
+-[MSALErrorConverter errorWithDomain:code:errorDescription:oauthError:subError:underlyingError:correlationId:userInfo:]
+_s_errorDomainMapping
+_s_errorCodeMapping
+_s_userInfoKeyMapping
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_MSIDErrorConverting
+l_OBJC_LABEL_PROTOCOL_$_MSIDErrorConverting
+-[MSALAADAuthority initWithURL:context:error:]
+-[MSALAADAuthority initWithURL:rawTenant:context:error:]
+-[MSALAADAuthority url]
+-[MSALB2CAuthority initWithURL:context:error:]
+-[MSALB2CAuthority url]
++[MSALLogger sharedLogger]
+___26+[MSALLogger sharedLogger]_block_invoke
+___26+[MSALLogger sharedLogger]_block_invoke_2
+-[MSALLogger setCallback:]
+___26-[MSALLogger setCallback:]_block_invoke
+-[MSALLogger setPiiLoggingEnabled:]
+-[MSALLogger PiiLoggingEnabled]
+-[MSALLogger setLevel:]
+-[MSALLogger level]
+-[MSALLogger .cxx_destruct]
+_sharedLogger.once
+_sharedLogger.s_logger
+___block_literal_global
+___block_descriptor_tmp.5
+___block_literal_global.6
+_OBJC_IVAR_$_MSALLogger._callback
+_setCallback:.once
+___block_descriptor_tmp.10
+-[MSALDefaultDispatcher initWithDispatcher:setTelemetryOnFailure:]
+-[MSALDefaultDispatcher containsDispatcher:]
+-[MSALDefaultDispatcher flush:]
+-[MSALDefaultDispatcher receive:event:]
+-[MSALDefaultDispatcher dispatchEvents:]
+-[MSALDefaultDispatcher appendPrefixForEvent:]
+-[MSALDefaultDispatcher .cxx_destruct]
+_OBJC_IVAR_$_MSALDefaultDispatcher._objectsToBeDispatched
+_OBJC_IVAR_$_MSALDefaultDispatcher._errorEvents
+_OBJC_IVAR_$_MSALDefaultDispatcher._dispatchLock
+_OBJC_IVAR_$_MSALDefaultDispatcher._dispatcher
+_OBJC_IVAR_$_MSALDefaultDispatcher._setTelemetryOnFailure
+_OBJC_IVAR_$_MSALDefaultDispatcher._defaultEvent
+l_OBJC_PROTOCOL_$_MSIDTelemetryDispatcher
+l_OBJC_LABEL_PROTOCOL_$_MSIDTelemetryDispatcher
+-[MSALTelemetryAPIEvent setUser:]
+-[MSALTelemetryAPIEvent setLoginHint:]
+-[MSALTelemetryAPIEvent setMSALApiId:]
+-[MSALTelemetryAPIEvent setUIBehavior:]
+-[MSALTelemetryAPIEvent setErrorCode:]
+-[MSALPublicClientApplication defaultKeychainGroup]
+-[MSALPublicClientApplication verifyRedirectUri:clientId:error:]
+-[MSALPublicClientApplication initWithClientId:error:]
+-[MSALPublicClientApplication initWithClientId:authority:error:]
+-[MSALPublicClientApplication initWithClientId:authority:redirectUri:error:]
+-[MSALPublicClientApplication initWithClientId:keychainGroup:error:]
+-[MSALPublicClientApplication initWithClientId:keychainGroup:authority:error:]
+-[MSALPublicClientApplication initWithClientId:keychainGroup:authority:redirectUri:error:]
+-[MSALPublicClientApplication allAccounts:]
+-[MSALPublicClientApplication accountForHomeAccountId:error:]
+-[MSALPublicClientApplication accountForUsername:error:]
+-[MSALPublicClientApplication allAccountsFilteredByAuthority:]
++[MSALPublicClientApplication handleMSALResponse:]
++[MSALPublicClientApplication cancelCurrentWebAuthSession]
+-[MSALPublicClientApplication acquireTokenForScopes:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:loginHint:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:loginHint:uiBehavior:extraQueryParameters:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:loginHint:uiBehavior:extraQueryParameters:authority:correlationId:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:account:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:account:uiBehavior:extraQueryParameters:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:account:uiBehavior:extraQueryParameters:authority:correlationId:completionBlock:]
+-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:account:uiBehavior:extraQueryParameters:claims:authority:correlationId:completionBlock:]
+-[MSALPublicClientApplication acquireTokenSilentForScopes:account:completionBlock:]
+-[MSALPublicClientApplication acquireTokenSilentForScopes:account:authority:completionBlock:]
+-[MSALPublicClientApplication acquireTokenSilentForScopes:account:authority:forceRefresh:correlationId:completionBlock:]
++[MSALPublicClientApplication logOperation:result:error:context:]
+-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:account:loginHint:uiBehavior:extraQueryParameters:claims:authority:correlationId:apiId:completionBlock:]
+___177-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:account:loginHint:uiBehavior:extraQueryParameters:claims:authority:correlationId:apiId:completionBlock:]_block_invoke
+___177-[MSALPublicClientApplication acquireTokenForScopes:extraScopesToConsent:account:loginHint:uiBehavior:extraQueryParameters:claims:authority:correlationId:apiId:completionBlock:]_block_invoke.163
+___copy_helper_block_.164
+___destroy_helper_block_.165
+-[MSALPublicClientApplication acquireTokenSilentForScopes:account:authority:forceRefresh:correlationId:apiId:completionBlock:]
+___126-[MSALPublicClientApplication acquireTokenSilentForScopes:account:authority:forceRefresh:correlationId:apiId:completionBlock:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
+___126-[MSALPublicClientApplication acquireTokenSilentForScopes:account:authority:forceRefresh:correlationId:apiId:completionBlock:]_block_invoke.194
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[MSALPublicClientApplication removeAccount:error:]
+-[MSALPublicClientApplication validateAuthority]
+-[MSALPublicClientApplication setValidateAuthority:]
+-[MSALPublicClientApplication extendedLifetimeEnabled]
+-[MSALPublicClientApplication setExtendedLifetimeEnabled:]
+-[MSALPublicClientApplication authority]
+-[MSALPublicClientApplication clientId]
+-[MSALPublicClientApplication redirectUri]
+-[MSALPublicClientApplication expirationBuffer]
+-[MSALPublicClientApplication setExpirationBuffer:]
+-[MSALPublicClientApplication sliceParameters]
+-[MSALPublicClientApplication setSliceParameters:]
+-[MSALPublicClientApplication component]
+-[MSALPublicClientApplication setComponent:]
+-[MSALPublicClientApplication webviewType]
+-[MSALPublicClientApplication setWebviewType:]
+-[MSALPublicClientApplication customWebview]
+-[MSALPublicClientApplication setCustomWebview:]
+-[MSALPublicClientApplication keychainGroup]
+-[MSALPublicClientApplication setKeychainGroup:]
+-[MSALPublicClientApplication tokenCache]
+-[MSALPublicClientApplication setTokenCache:]
+-[MSALPublicClientApplication .cxx_destruct]
++[MSALPublicClientApplication(Internal) defaultSliceParameters]
+_OBJC_IVAR_$_MSALPublicClientApplication._redirectUri
+_OBJC_IVAR_$_MSALPublicClientApplication._clientId
+_OBJC_IVAR_$_MSALPublicClientApplication._authority
+_OBJC_IVAR_$_MSALPublicClientApplication._keychainGroup
+_OBJC_IVAR_$_MSALPublicClientApplication._webviewType
+_OBJC_IVAR_$_MSALPublicClientApplication._validateAuthority
+_OBJC_IVAR_$_MSALPublicClientApplication._extendedLifetimeEnabled
+_OBJC_IVAR_$_MSALPublicClientApplication._sliceParameters
+_OBJC_IVAR_$_MSALPublicClientApplication._expirationBuffer
+_OBJC_IVAR_$_MSALPublicClientApplication._component
+_OBJC_IVAR_$_MSALPublicClientApplication._customWebview
+___block_descriptor_tmp.166
+___block_descriptor_tmp.188
+___block_descriptor_tmp.197
+_OBJC_IVAR_$_MSALPublicClientApplication._tokenCache
+_OBJC_IVAR_$_MSALPublicClientApplication._defaultKeychainGroup
+-[MSALTelemetry initInternal]
++[MSALTelemetry sharedInstance]
+___31+[MSALTelemetry sharedInstance]_block_invoke
+-[MSALTelemetry addDispatcher:setTelemetryOnFailure:]
+-[MSALTelemetry removeDispatcher:]
+-[MSALTelemetry removeAllDispatchers]
+-[MSALTelemetry piiEnabled]
+-[MSALTelemetry setPiiEnabled:]
+_sharedInstance.once
+_sharedInstance.singleton
+-[MSALResult accessToken]
+-[MSALResult expiresOn]
+-[MSALResult extendedLifeTimeToken]
+-[MSALResult tenantId]
+-[MSALResult account]
+-[MSALResult idToken]
+-[MSALResult uniqueId]
+-[MSALResult scopes]
+-[MSALResult authority]
+-[MSALResult .cxx_destruct]
++[MSALResult(Internal) resultWithAccessToken:expiresOn:isExtendedLifetimeToken:tenantId:account:idToken:uniqueId:scopes:authority:]
++[MSALResult(Internal) resultWithAccessToken:idToken:isExtendedLifetimeToken:error:]
+_OBJC_IVAR_$_MSALResult._accessToken
+_OBJC_IVAR_$_MSALResult._expiresOn
+_OBJC_IVAR_$_MSALResult._extendedLifeTimeToken
+_OBJC_IVAR_$_MSALResult._tenantId
+_OBJC_IVAR_$_MSALResult._account
+_OBJC_IVAR_$_MSALResult._idToken
+_OBJC_IVAR_$_MSALResult._uniqueId
+_OBJC_IVAR_$_MSALResult._scopes
+_OBJC_IVAR_$_MSALResult._authority
+-[MSALSilentRequest initWithParameters:forceRefresh:tokenCache:expirationBuffer:error:]
+-[MSALSilentRequest acquireToken:]
+___34-[MSALSilentRequest acquireToken:]_block_invoke
+-[MSALSilentRequest acquireTokenImpl:]
+___38-[MSALSilentRequest acquireTokenImpl:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
+-[MSALSilentRequest tokenRequest]
+-[MSALSilentRequest isServerUnavailable:]
+-[MSALSilentRequest state]
+-[MSALSilentRequest setState:]
+-[MSALSilentRequest refreshToken]
+-[MSALSilentRequest setRefreshToken:]
+-[MSALSilentRequest .cxx_destruct]
+_OBJC_IVAR_$_MSALSilentRequest._refreshToken
+_OBJC_IVAR_$_MSALSilentRequest._extendedLifetimeAccessToken
+___block_descriptor_tmp.56
+_OBJC_IVAR_$_MSALSilentRequest._state
++[MSALBaseRequest initialize]
+-[MSALBaseRequest initWithParameters:tokenCache:error:]
+-[MSALBaseRequest validateScopeInput:error:]
+-[MSALBaseRequest requestScopes:]
+-[MSALBaseRequest run:]
+-[MSALBaseRequest resolveEndpoints:]
+___36-[MSALBaseRequest resolveEndpoints:]_block_invoke
+___36-[MSALBaseRequest resolveEndpoints:]_block_invoke_2
+___copy_helper_block_.91
+___destroy_helper_block_.92
+-[MSALBaseRequest acquireToken:]
+___32-[MSALBaseRequest acquireToken:]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[MSALBaseRequest verifyTokenResponse:error:]
+-[MSALBaseRequest isErrorRecoverableByUserInteraction:]
+-[MSALBaseRequest resultFromTokenResponse:error:]
+-[MSALBaseRequest verifyScopesWithResponse:error:]
+-[MSALBaseRequest tokenRequest]
+-[MSALBaseRequest tokenEndpoint]
+-[MSALBaseRequest getTelemetryAPIEvent]
+-[MSALBaseRequest stopTelemetryEvent:error:]
+-[MSALBaseRequest accessTokenItem]
+-[MSALBaseRequest setAccessTokenItem:]
+-[MSALBaseRequest parameters]
+-[MSALBaseRequest tokenCache]
+-[MSALBaseRequest setTokenCache:]
+-[MSALBaseRequest oauth2Factory]
+-[MSALBaseRequest setOauth2Factory:]
+-[MSALBaseRequest .cxx_destruct]
+_s_reservedScopes
+_OBJC_IVAR_$_MSALBaseRequest._oauth2Factory
+___block_descriptor_tmp.94
+___block_descriptor_tmp.135
+_OBJC_IVAR_$_MSALBaseRequest._accessTokenItem
+-[MSALAuthority initWithURL:context:error:]
++[MSALAuthority authorityWithURL:error:]
+-[MSALAuthority url]
+-[MSALAuthority msidAuthority]
+-[MSALAuthority setMsidAuthority:]
+-[MSALAuthority .cxx_destruct]
+_OBJC_IVAR_$_MSALAuthority._msidAuthority
+-[MSALAccount initWithUsername:name:homeAccountId:localAccountId:environment:tenantId:clientInfo:]
+-[MSALAccount initWithMSIDAccount:]
+-[MSALAccount copyWithZone:]
+-[MSALAccount isEqual:]
+-[MSALAccount hash]
+-[MSALAccount isEqualToUser:]
+-[MSALAccount username]
+-[MSALAccount setUsername:]
+-[MSALAccount homeAccountId]
+-[MSALAccount setHomeAccountId:]
+-[MSALAccount environment]
+-[MSALAccount setEnvironment:]
+-[MSALAccount lookupAccountIdentifier]
+-[MSALAccount setLookupAccountIdentifier:]
+-[MSALAccount localAccountId]
+-[MSALAccount setLocalAccountId:]
+-[MSALAccount name]
+-[MSALAccount setName:]
+-[MSALAccount .cxx_destruct]
+_OBJC_IVAR_$_MSALAccount._username
+_OBJC_IVAR_$_MSALAccount._name
+_OBJC_IVAR_$_MSALAccount._environment
+_OBJC_IVAR_$_MSALAccount._homeAccountId
+_OBJC_IVAR_$_MSALAccount._localAccountId
+_OBJC_IVAR_$_MSALAccount._lookupAccountIdentifier
++[MSIDVersion platformName]
++[MSIDVersion sdkName]
++[MSIDVersion sdkVersion]
++[MSIDVersion telemetryEventPrefix]
+-[MSALAuthorityFactory authorityFromUrl:context:error:]
+-[MSALAuthorityFactory authorityFromUrl:rawTenant:context:error:]
+-[MSALADFSAuthority initWithURL:context:error:]
+-[MSALADFSAuthority url]
+-[MSALTelemetryDefaultEvent initWithName:context:]
++[MSALRedirectUriVerifier verifyRedirectUri:brokerEnabled:error:]
++[MSALRedirectUriVerifier generateRedirectUri:clientId:brokerEnabled:error:]
++[MSALRedirectUriVerifier verifySchemeIsRegistered:error:]
+-[MSALAccountsProvider initWithTokenCache:clientId:]
+-[MSALAccountsProvider allAccountsFilteredByAuthority:completionBlock:]
+___71-[MSALAccountsProvider allAccountsFilteredByAuthority:completionBlock:]_block_invoke
+-[MSALAccountsProvider allAccounts:]
+-[MSALAccountsProvider accountForHomeAccountId:error:]
+-[MSALAccountsProvider accountForUsername:error:]
+-[MSALAccountsProvider allAccountsForAuthority:error:]
+-[MSALAccountsProvider tokenCache]
+-[MSALAccountsProvider setTokenCache:]
+-[MSALAccountsProvider clientId]
+-[MSALAccountsProvider setClientId:]
+-[MSALAccountsProvider .cxx_destruct]
+_OBJC_IVAR_$_MSALAccountsProvider._tokenCache
+_OBJC_IVAR_$_MSALAccountsProvider._clientId
++[MSIDAdfsAuthorityResolver initialize]
++[MSIDAdfsAuthorityResolver cache]
+-[MSIDAdfsAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]
+___97-[MSIDAdfsAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]_block_invoke
+___97-[MSIDAdfsAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]_block_invoke_2
+___copy_helper_block_.46
+___destroy_helper_block_.47
+-[MSIDAdfsAuthorityResolver sendDrsDiscoveryWithDomain:context:completionBlock:]
+___80-[MSIDAdfsAuthorityResolver sendDrsDiscoveryWithDomain:context:completionBlock:]_block_invoke
+___80-[MSIDAdfsAuthorityResolver sendDrsDiscoveryWithDomain:context:completionBlock:]_block_invoke_2
+___copy_helper_block_.55
+___destroy_helper_block_.56
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[MSIDAdfsAuthorityResolver isRealmTrustedFromWebFingerPayload:authority:]
+-[MSIDAdfsAuthorityResolver openIdConfigurationEndpointForAuthority:]
+-[MSIDAdfsAuthorityResolver getDomain:]
+_s_cache
+___block_descriptor_tmp.49
+___block_descriptor_tmp.57
+___block_descriptor_tmp.60
+l_OBJC_PROTOCOL_$_MSIDAuthorityResolving
+l_OBJC_LABEL_PROTOCOL_$_MSIDAuthorityResolving
+-[MSIDAADV1IdTokenClaims upn]
+-[MSIDAADV1IdTokenClaims identityProvider]
+-[MSIDAADV1IdTokenClaims objectId]
+-[MSIDAADV1IdTokenClaims tenantId]
+-[MSIDAADV1IdTokenClaims uniqueName]
+-[MSIDAADV1IdTokenClaims initDerivedProperties]
+-[MSIDAADV1IdTokenClaims matchesLegacyUserId:]
+-[MSIDAADV1IdTokenClaims alternativeAccountId]
+-[MSIDAADV1IdTokenClaims realm]
+-[MSIDConfiguration copyWithZone:]
+-[MSIDConfiguration initWithAuthority:redirectUri:clientId:target:]
+-[MSIDConfiguration resource]
+-[MSIDConfiguration scopes]
+-[MSIDConfiguration authority]
+-[MSIDConfiguration setAuthority:]
+-[MSIDConfiguration redirectUri]
+-[MSIDConfiguration setRedirectUri:]
+-[MSIDConfiguration clientId]
+-[MSIDConfiguration setClientId:]
+-[MSIDConfiguration target]
+-[MSIDConfiguration setTarget:]
+-[MSIDConfiguration .cxx_destruct]
+_OBJC_IVAR_$_MSIDConfiguration._authority
+_OBJC_IVAR_$_MSIDConfiguration._redirectUri
+_OBJC_IVAR_$_MSIDConfiguration._target
+_OBJC_IVAR_$_MSIDConfiguration._clientId
+-[MSIDDefaultCredentialCacheKey serviceWithType:clientID:realm:target:]
+-[MSIDDefaultCredentialCacheKey credentialIdWithType:clientId:realm:]
+-[MSIDDefaultCredentialCacheKey accountIdWithHomeAccountId:environment:]
+-[MSIDDefaultCredentialCacheKey credentialTypeNumber:]
+-[MSIDDefaultCredentialCacheKey initWithHomeAccountId:environment:clientId:credentialType:]
+-[MSIDDefaultCredentialCacheKey generic]
+-[MSIDDefaultCredentialCacheKey type]
+-[MSIDDefaultCredentialCacheKey account]
+-[MSIDDefaultCredentialCacheKey service]
+-[MSIDDefaultCredentialCacheKey homeAccountId]
+-[MSIDDefaultCredentialCacheKey setHomeAccountId:]
+-[MSIDDefaultCredentialCacheKey environment]
+-[MSIDDefaultCredentialCacheKey setEnvironment:]
+-[MSIDDefaultCredentialCacheKey realm]
+-[MSIDDefaultCredentialCacheKey setRealm:]
+-[MSIDDefaultCredentialCacheKey clientId]
+-[MSIDDefaultCredentialCacheKey setClientId:]
+-[MSIDDefaultCredentialCacheKey familyId]
+-[MSIDDefaultCredentialCacheKey setFamilyId:]
+-[MSIDDefaultCredentialCacheKey target]
+-[MSIDDefaultCredentialCacheKey setTarget:]
+-[MSIDDefaultCredentialCacheKey credentialType]
+-[MSIDDefaultCredentialCacheKey setCredentialType:]
+-[MSIDDefaultCredentialCacheKey .cxx_destruct]
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._homeAccountId
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._environment
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._clientId
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._credentialType
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._realm
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._familyId
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheKey._target
+-[MSIDCredentialCacheItem isEqual:]
+-[MSIDCredentialCacheItem isEqualToItem:]
+-[MSIDCredentialCacheItem hash]
+-[MSIDCredentialCacheItem copyWithZone:]
+-[MSIDCredentialCacheItem initWithJSONDictionary:error:]
+-[MSIDCredentialCacheItem jsonDictionary]
+-[MSIDCredentialCacheItem tokenWithType:]
+-[MSIDCredentialCacheItem matchesTarget:comparisonOptions:]
+-[MSIDCredentialCacheItem matchesWithHomeAccountId:environment:environmentAliases:]
+-[MSIDCredentialCacheItem matchesWithLegacyUserId:environment:environmentAliases:]
+-[MSIDCredentialCacheItem matchByEnvironment:environmentAliases:]
+-[MSIDCredentialCacheItem matchesWithRealm:clientId:familyId:target:targetMatching:clientIdMatching:]
+-[MSIDCredentialCacheItem isTombstone]
+-[MSIDCredentialCacheItem clientId]
+-[MSIDCredentialCacheItem setClientId:]
+-[MSIDCredentialCacheItem credentialType]
+-[MSIDCredentialCacheItem setCredentialType:]
+-[MSIDCredentialCacheItem secret]
+-[MSIDCredentialCacheItem setSecret:]
+-[MSIDCredentialCacheItem target]
+-[MSIDCredentialCacheItem setTarget:]
+-[MSIDCredentialCacheItem realm]
+-[MSIDCredentialCacheItem setRealm:]
+-[MSIDCredentialCacheItem environment]
+-[MSIDCredentialCacheItem setEnvironment:]
+-[MSIDCredentialCacheItem expiresOn]
+-[MSIDCredentialCacheItem setExpiresOn:]
+-[MSIDCredentialCacheItem cachedAt]
+-[MSIDCredentialCacheItem setCachedAt:]
+-[MSIDCredentialCacheItem familyId]
+-[MSIDCredentialCacheItem setFamilyId:]
+-[MSIDCredentialCacheItem homeAccountId]
+-[MSIDCredentialCacheItem setHomeAccountId:]
+-[MSIDCredentialCacheItem clientInfo]
+-[MSIDCredentialCacheItem setClientInfo:]
+-[MSIDCredentialCacheItem additionalInfo]
+-[MSIDCredentialCacheItem setAdditionalInfo:]
+-[MSIDCredentialCacheItem json]
+-[MSIDCredentialCacheItem setJson:]
+-[MSIDCredentialCacheItem .cxx_destruct]
+_OBJC_IVAR_$_MSIDCredentialCacheItem._json
+_OBJC_IVAR_$_MSIDCredentialCacheItem._clientId
+_OBJC_IVAR_$_MSIDCredentialCacheItem._credentialType
+_OBJC_IVAR_$_MSIDCredentialCacheItem._secret
+_OBJC_IVAR_$_MSIDCredentialCacheItem._target
+_OBJC_IVAR_$_MSIDCredentialCacheItem._realm
+_OBJC_IVAR_$_MSIDCredentialCacheItem._environment
+_OBJC_IVAR_$_MSIDCredentialCacheItem._expiresOn
+_OBJC_IVAR_$_MSIDCredentialCacheItem._cachedAt
+_OBJC_IVAR_$_MSIDCredentialCacheItem._familyId
+_OBJC_IVAR_$_MSIDCredentialCacheItem._homeAccountId
+_OBJC_IVAR_$_MSIDCredentialCacheItem._clientInfo
+_OBJC_IVAR_$_MSIDCredentialCacheItem._additionalInfo
+l_OBJC_PROTOCOL_$_MSIDJsonSerializable
+l_OBJC_LABEL_PROTOCOL_$_MSIDJsonSerializable
+-[MSIDLegacySingleResourceToken copyWithZone:]
+-[MSIDLegacySingleResourceToken isEqual:]
+-[MSIDLegacySingleResourceToken hash]
+-[MSIDLegacySingleResourceToken isEqualToItem:]
+-[MSIDLegacySingleResourceToken initWithTokenCacheItem:]
+-[MSIDLegacySingleResourceToken tokenCacheItem]
+-[MSIDLegacySingleResourceToken initWithLegacyTokenCacheItem:]
+-[MSIDLegacySingleResourceToken legacyTokenCacheItem]
+-[MSIDLegacySingleResourceToken credentialType]
+-[MSIDLegacySingleResourceToken supportsCredentialType:]
+-[MSIDLegacySingleResourceToken description]
+-[MSIDLegacySingleResourceToken refreshToken]
+-[MSIDLegacySingleResourceToken setRefreshToken:]
+-[MSIDLegacySingleResourceToken familyId]
+-[MSIDLegacySingleResourceToken setFamilyId:]
+-[MSIDLegacySingleResourceToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacySingleResourceToken._refreshToken
+_OBJC_IVAR_$_MSIDLegacySingleResourceToken._familyId
+l_OBJC_PROTOCOL_$_MSIDRefreshableToken
+l_OBJC_LABEL_PROTOCOL_$_MSIDRefreshableToken
+-[NSData(MSIDExtensions) msidSHA1]
+-[NSData(MSIDExtensions) msidSHA256]
+-[NSData(MSIDExtensions) msidHexString]
+-[NSData(MSIDExtensions) msidBase64UrlEncodedString]
+-[NSData(MSIDExtensions) msidToJsonDictionary:]
++[NSData(MSIDExtensions) msidDataFromBase64UrlEncodedString:]
+-[MSIDKeyedArchiverSerializer serialize:]
+-[MSIDKeyedArchiverSerializer deserialize:className:]
+-[MSIDKeyedArchiverSerializer serializeCredentialCacheItem:]
+-[MSIDKeyedArchiverSerializer deserializeCredentialCacheItem:]
+-[MSIDKeyedArchiverSerializer serializeAccountCacheItem:]
+-[MSIDKeyedArchiverSerializer deserializeAccountCacheItem:]
+l_OBJC_PROTOCOL_$_MSIDCredentialItemSerializer
+l_OBJC_LABEL_PROTOCOL_$_MSIDCredentialItemSerializer
+l_OBJC_PROTOCOL_$_MSIDAccountItemSerializer
+l_OBJC_LABEL_PROTOCOL_$_MSIDAccountItemSerializer
+-[NSMutableDictionary(MSIDExtensions) msidSetObjectIfNotNil:forKey:]
+-[MSIDAuthorizationCodeGrantRequest initWithEndpoint:clientId:scope:redirectUri:code:codeVerifier:context:]
+-[MSIDDefaultErrorConverter errorWithDomain:code:errorDescription:oauthError:subError:underlyingError:correlationId:userInfo:]
+-[MSIDURLFormObject init]
+-[MSIDURLFormObject initWithEncodedString:error:]
+-[MSIDURLFormObject initWithDictionary:error:]
+-[MSIDURLFormObject formDictionary]
+-[MSIDURLFormObject encode]
+-[MSIDURLFormObject .cxx_destruct]
+-[MSIDClientInfo uid]
+-[MSIDClientInfo utid]
+-[MSIDClientInfo rawClientInfo]
+-[MSIDClientInfo setRawClientInfo:]
+-[MSIDClientInfo initWithRawClientInfo:error:]
+-[MSIDClientInfo accountIdentifier]
+-[MSIDClientInfo copyWithZone:]
++[MSIDNetworkConfiguration setTimeout:]
++[MSIDNetworkConfiguration timeout]
++[MSIDNetworkConfiguration setRetryCount:]
++[MSIDNetworkConfiguration retryCount]
+_s_timeout
+_s_retryCount
+-[MSIDWebMSAuthResponse initWithURL:context:error:]
+-[MSIDWebMSAuthResponse upn]
+-[MSIDWebMSAuthResponse appInstallLink]
+-[MSIDWebMSAuthResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebMSAuthResponse._appInstallLink
+_OBJC_IVAR_$_MSIDWebMSAuthResponse._upn
+-[MSIDRefreshTokenGrantRequest initWithEndpoint:clientId:scope:refreshToken:context:]
+-[MSIDAuthorityFactory authorityFromUrl:context:error:]
+-[MSIDAuthorityFactory authorityFromUrl:rawTenant:context:error:]
+-[MSIDAADRequestConfigurator init]
+-[MSIDAADRequestConfigurator configure:]
+-[MSIDAADRequestConfigurator timeoutInterval]
+-[MSIDAADRequestConfigurator setTimeoutInterval:]
+_OBJC_IVAR_$_MSIDAADRequestConfigurator._timeoutInterval
+l_OBJC_PROTOCOL_$_MSIDHttpRequestConfiguratorProtocol
+l_OBJC_LABEL_PROTOCOL_$_MSIDHttpRequestConfiguratorProtocol
++[MSIDAadAuthorityResolver initialize]
+-[MSIDAadAuthorityResolver init]
+-[MSIDAadAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]
+___96-[MSIDAadAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___96-[MSIDAadAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]_block_invoke.14
+___copy_helper_block_.26
+___destroy_helper_block_.27
+-[MSIDAadAuthorityResolver sendDiscoverRequestWithAuthority:validate:context:completionBlock:]
+___94-[MSIDAadAuthorityResolver sendDiscoverRequestWithAuthority:validate:context:completionBlock:]_block_invoke
+___94-[MSIDAadAuthorityResolver sendDiscoverRequestWithAuthority:validate:context:completionBlock:]_block_invoke_2
+___copy_helper_block_.62
+___destroy_helper_block_.63
+___copy_helper_block_.68
+___destroy_helper_block_.69
+-[MSIDAadAuthorityResolver handleRecord:authority:completionBlock:]
+-[MSIDAadAuthorityResolver aadCache]
+-[MSIDAadAuthorityResolver setAadCache:]
+-[MSIDAadAuthorityResolver .cxx_destruct]
+_s_aadValidationQueue
+_OBJC_IVAR_$_MSIDAadAuthorityResolver._aadCache
+___block_descriptor_tmp.29
+___block_descriptor_tmp.65
+___block_descriptor_tmp.71
++[UIApplication(internal) msidCurrentViewController]
++[UIApplication(internal) msidCurrentViewControllerWithRootViewController:]
+-[MSIDWebviewFactory embeddedWebviewSessionFromConfiguration:customWebview:context:]
+-[MSIDWebviewFactory systemWebviewSessionFromConfiguration:useAuthenticationSession:allowSafariViewController:context:]
+-[MSIDWebviewFactory authorizationParametersFromConfiguration:requestState:]
+-[MSIDWebviewFactory startURLFromConfiguration:requestState:]
+-[MSIDWebviewFactory responseWithURL:requestState:ignoreInvalidState:context:error:]
+-[MSIDWebviewFactory generateStateValue]
+-[MSIDWebAADAuthResponse initWithURL:context:error:]
+-[MSIDWebAADAuthResponse initWithURL:requestState:ignoreInvalidState:context:error:]
+-[MSIDWebAADAuthResponse cloudHostName]
+-[MSIDWebAADAuthResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebAADAuthResponse._cloudHostName
+-[MSIDDRSDiscoveryRequest initWithDomain:adfsType:context:]
+-[MSIDDRSDiscoveryRequest endpointWithDomain:adfsType:]
+-[MSIDDRSDiscoveryRequest domain]
+-[MSIDDRSDiscoveryRequest setDomain:]
+-[MSIDDRSDiscoveryRequest adfsType]
+-[MSIDDRSDiscoveryRequest setAdfsType:]
+-[MSIDDRSDiscoveryRequest .cxx_destruct]
+_OBJC_IVAR_$_MSIDDRSDiscoveryRequest._domain
+_OBJC_IVAR_$_MSIDDRSDiscoveryRequest._adfsType
+-[MSIDRefreshToken copyWithZone:]
+-[MSIDRefreshToken isEqual:]
+-[MSIDRefreshToken hash]
+-[MSIDRefreshToken isEqualToItem:]
+-[MSIDRefreshToken initWithTokenCacheItem:]
+-[MSIDRefreshToken tokenCacheItem]
+-[MSIDRefreshToken credentialType]
+-[MSIDRefreshToken description]
+-[MSIDRefreshToken refreshToken]
+-[MSIDRefreshToken setRefreshToken:]
+-[MSIDRefreshToken familyId]
+-[MSIDRefreshToken setFamilyId:]
+-[MSIDRefreshToken .cxx_destruct]
+-[MSIDWebviewConfiguration initWithAuthorizationEndpoint:redirectUri:clientId:resource:scopes:correlationId:enablePkce:]
+-[MSIDWebviewConfiguration authorizationEndpoint]
+-[MSIDWebviewConfiguration setAuthorizationEndpoint:]
+-[MSIDWebviewConfiguration redirectUri]
+-[MSIDWebviewConfiguration setRedirectUri:]
+-[MSIDWebviewConfiguration clientId]
+-[MSIDWebviewConfiguration setClientId:]
+-[MSIDWebviewConfiguration resource]
+-[MSIDWebviewConfiguration setResource:]
+-[MSIDWebviewConfiguration scopes]
+-[MSIDWebviewConfiguration setScopes:]
+-[MSIDWebviewConfiguration correlationId]
+-[MSIDWebviewConfiguration setCorrelationId:]
+-[MSIDWebviewConfiguration extraQueryParameters]
+-[MSIDWebviewConfiguration setExtraQueryParameters:]
+-[MSIDWebviewConfiguration sliceParameters]
+-[MSIDWebviewConfiguration setSliceParameters:]
+-[MSIDWebviewConfiguration promptBehavior]
+-[MSIDWebviewConfiguration setPromptBehavior:]
+-[MSIDWebviewConfiguration claims]
+-[MSIDWebviewConfiguration setClaims:]
+-[MSIDWebviewConfiguration customHeaders]
+-[MSIDWebviewConfiguration setCustomHeaders:]
+-[MSIDWebviewConfiguration pkce]
+-[MSIDWebviewConfiguration ignoreInvalidState]
+-[MSIDWebviewConfiguration setIgnoreInvalidState:]
+-[MSIDWebviewConfiguration loginHint]
+-[MSIDWebviewConfiguration setLoginHint:]
+-[MSIDWebviewConfiguration utid]
+-[MSIDWebviewConfiguration setUtid:]
+-[MSIDWebviewConfiguration uid]
+-[MSIDWebviewConfiguration setUid:]
+-[MSIDWebviewConfiguration explicitStartURL]
+-[MSIDWebviewConfiguration setExplicitStartURL:]
+-[MSIDWebviewConfiguration parentController]
+-[MSIDWebviewConfiguration setParentController:]
+-[MSIDWebviewConfiguration presentationType]
+-[MSIDWebviewConfiguration setPresentationType:]
+-[MSIDWebviewConfiguration .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebviewConfiguration._authorizationEndpoint
+_OBJC_IVAR_$_MSIDWebviewConfiguration._redirectUri
+_OBJC_IVAR_$_MSIDWebviewConfiguration._clientId
+_OBJC_IVAR_$_MSIDWebviewConfiguration._resource
+_OBJC_IVAR_$_MSIDWebviewConfiguration._scopes
+_OBJC_IVAR_$_MSIDWebviewConfiguration._correlationId
+_OBJC_IVAR_$_MSIDWebviewConfiguration._pkce
+_OBJC_IVAR_$_MSIDWebviewConfiguration._ignoreInvalidState
+_OBJC_IVAR_$_MSIDWebviewConfiguration._customHeaders
+_OBJC_IVAR_$_MSIDWebviewConfiguration._extraQueryParameters
+_OBJC_IVAR_$_MSIDWebviewConfiguration._sliceParameters
+_OBJC_IVAR_$_MSIDWebviewConfiguration._promptBehavior
+_OBJC_IVAR_$_MSIDWebviewConfiguration._claims
+_OBJC_IVAR_$_MSIDWebviewConfiguration._loginHint
+_OBJC_IVAR_$_MSIDWebviewConfiguration._utid
+_OBJC_IVAR_$_MSIDWebviewConfiguration._uid
+_OBJC_IVAR_$_MSIDWebviewConfiguration._explicitStartURL
+_OBJC_IVAR_$_MSIDWebviewConfiguration._parentController
+_OBJC_IVAR_$_MSIDWebviewConfiguration._presentationType
+-[MSIDAADV2IdTokenClaims issuer]
+-[MSIDAADV2IdTokenClaims objectId]
+-[MSIDAADV2IdTokenClaims tenantId]
+-[MSIDAADV2IdTokenClaims version]
+-[MSIDAADV2IdTokenClaims homeObjectId]
+-[MSIDAADV2IdTokenClaims initDerivedProperties]
+-[MSIDAADV2IdTokenClaims matchesLegacyUserId:]
+-[MSIDAADV2IdTokenClaims alternativeAccountId]
+-[MSIDAADV2IdTokenClaims realm]
+-[MSIDJsonSerializer serialize:]
+-[MSIDJsonSerializer deserialize:]
+-[MSIDJsonSerializer deserializeJSON:error:]
+-[MSIDJsonSerializer serializeCredentialCacheItem:]
+-[MSIDJsonSerializer deserializeCredentialCacheItem:]
+-[MSIDJsonSerializer serializeAccountCacheItem:]
+-[MSIDJsonSerializer deserializeAccountCacheItem:]
+-[MSIDWebviewUIController initWithContext:]
+-[MSIDWebviewUIController dealloc]
+-[MSIDWebviewUIController loadView:]
+-[MSIDWebviewUIController presentView]
+___38-[MSIDWebviewUIController presentView]_block_invoke
+-[MSIDWebviewUIController dismissWebview:]
+-[MSIDWebviewUIController showLoadingIndicator]
+-[MSIDWebviewUIController dismissLoadingIndicator]
+-[MSIDWebviewUIController obtainParentController]
+-[MSIDWebviewUIController setupCancelButton]
+-[MSIDWebviewUIController prepareLoadingIndicator:]
+-[MSIDWebviewUIController cancel]
+-[MSIDWebviewUIController userCancel]
+-[MSIDWebviewUIController startTrackingBackroundAppTransition]
+___62-[MSIDWebviewUIController startTrackingBackroundAppTransition]_block_invoke
+___copy_helper_block_.102
+___destroy_helper_block_.103
+-[MSIDWebviewUIController stopTrackingBackgroundAppTransition]
+-[MSIDWebviewUIController startTrackingForegroundAppTransition]
+___63-[MSIDWebviewUIController startTrackingForegroundAppTransition]_block_invoke
+___copy_helper_block_.118
+___destroy_helper_block_.119
+-[MSIDWebviewUIController stopTrackingForegroundAppTransition]
+-[MSIDWebviewUIController startBackgroundTask]
+___46-[MSIDWebviewUIController startBackgroundTask]_block_invoke
+___copy_helper_block_.131
+___destroy_helper_block_.132
+-[MSIDWebviewUIController stopBackgroundTask]
+-[MSIDWebviewUIController cleanupBackgroundTask]
+-[MSIDWebviewUIController webView]
+-[MSIDWebviewUIController setWebView:]
+-[MSIDWebviewUIController context]
+-[MSIDWebviewUIController setContext:]
+-[MSIDWebviewUIController loading]
+-[MSIDWebviewUIController setLoading:]
+-[MSIDWebviewUIController complete]
+-[MSIDWebviewUIController setComplete:]
+-[MSIDWebviewUIController parentController]
+-[MSIDWebviewUIController setParentController:]
+-[MSIDWebviewUIController presentationType]
+-[MSIDWebviewUIController setPresentationType:]
+-[MSIDWebviewUIController .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebviewUIController._context
+_OBJC_IVAR_$_MSIDWebviewUIController._webView
+_OBJC_IVAR_$_MSIDWebviewUIController._loadingIndicator
+_OBJC_IVAR_$_MSIDWebviewUIController._presentationType
+_OBJC_IVAR_$_MSIDWebviewUIController._parentController
+_OBJC_IVAR_$_MSIDWebviewUIController._bgObserver
+___block_descriptor_tmp.105
+_OBJC_IVAR_$_MSIDWebviewUIController._foregroundObserver
+___block_descriptor_tmp.120
+_OBJC_IVAR_$_MSIDWebviewUIController._bgTask
+___block_descriptor_tmp.133
+_OBJC_IVAR_$_MSIDWebviewUIController._loading
+_OBJC_IVAR_$_MSIDWebviewUIController._complete
+-[MSIDAADAuthorizationCodeRequest initWithEndpoint:clientId:redirectUri:scope:loginHint:context:]
++[MSIDTokenFilteringHelper filterTokenCacheItems:tokenType:returnFirst:filterBy:]
+-[MSIDTelemetry init]
+-[MSIDTelemetry initInternal]
++[MSIDTelemetry sharedInstance]
+___31+[MSIDTelemetry sharedInstance]_block_invoke
+-[MSIDTelemetry addDispatcher:]
+-[MSIDTelemetry removeDispatcher:]
+-[MSIDTelemetry removeAllDispatchers]
+-[MSIDTelemetry piiEnabled]
+-[MSIDTelemetry setPiiEnabled:]
+-[MSIDTelemetry .cxx_destruct]
+-[MSIDTelemetry(Internal) generateRequestId]
+-[MSIDTelemetry(Internal) startEvent:eventName:]
+-[MSIDTelemetry(Internal) findAndRemoveDispatcher:]
+-[MSIDTelemetry(Internal) stopEvent:event:]
+-[MSIDTelemetry(Internal) dispatchEventNow:event:]
+-[MSIDTelemetry(Internal) getEventTrackingKey:eventName:]
+-[MSIDTelemetry(Internal) flush:]
+_OBJC_IVAR_$_MSIDTelemetry._eventTracking
+_OBJC_IVAR_$_MSIDTelemetry._dispatchers
+_OBJC_IVAR_$_MSIDTelemetry._piiEnabled
+-[MSIDLogger init]
++[MSIDLogger sharedLogger]
+___26+[MSIDLogger sharedLogger]_block_invoke
+-[MSIDLogger setCallback:]
+___26-[MSIDLogger setCallback:]_block_invoke
+-[MSIDLogger level]
+-[MSIDLogger setLevel:]
+-[MSIDLogger PiiLoggingEnabled]
+-[MSIDLogger setPiiLoggingEnabled:]
+-[MSIDLogger NSLoggingEnabled]
+-[MSIDLogger setNSLoggingEnabled:]
+-[MSIDLogger loggerQueue]
+-[MSIDLogger setLoggerQueue:]
+-[MSIDLogger queueSemaphore]
+-[MSIDLogger setQueueSemaphore:]
+-[MSIDLogger callback]
+-[MSIDLogger .cxx_destruct]
++[MSIDLogger(Internal) initialize]
+-[MSIDLogger(Internal) logLevel:context:correlationId:isPII:format:]
+___68-[MSIDLogger(Internal) logLevel:context:correlationId:isPII:format:]_block_invoke
+___copy_helper_block_.128
+___destroy_helper_block_.129
+-[MSIDLogger(Internal) stringForLogLevel:]
+-[MSIDLogger(Internal) logToken:tokenType:expiresOnDate:additionaLog:context:]
+_OBJC_IVAR_$_MSIDLogger._level
+_OBJC_IVAR_$_MSIDLogger._PiiLoggingEnabled
+_OBJC_IVAR_$_MSIDLogger._loggerQueue
+_OBJC_IVAR_$_MSIDLogger._queueSemaphore
+_OBJC_IVAR_$_MSIDLogger._callback
+___block_descriptor_tmp.16
+_OBJC_IVAR_$_MSIDLogger._NSLoggingEnabled
+_s_dateFormatter
+___block_descriptor_tmp.130
+-[MSIDTokenResponse error]
+-[MSIDTokenResponse errorDescription]
+-[MSIDTokenResponse accessToken]
+-[MSIDTokenResponse tokenType]
+-[MSIDTokenResponse refreshToken]
+-[MSIDTokenResponse scope]
+-[MSIDTokenResponse state]
+-[MSIDTokenResponse idToken]
+-[MSIDTokenResponse setIdToken:]
+-[MSIDTokenResponse initWithJSONDictionary:refreshToken:error:]
+-[MSIDTokenResponse expiresIn]
+-[MSIDTokenResponse setExpiresIn:]
+-[MSIDTokenResponse expiryDate]
+-[MSIDTokenResponse isMultiResource]
+-[MSIDTokenResponse idTokenObj]
+-[MSIDTokenResponse target]
+-[MSIDTokenResponse accountType]
+-[MSIDTokenResponse oauthErrorCode]
+-[MSIDTokenResponse additionalServerInfo]
+-[MSIDRegistrationInformation initWithSecurityIdentity:certificateIssuer:certificate:certificateSubject:certificateData:privateKey:]
+-[MSIDRegistrationInformation dealloc]
+-[MSIDRegistrationInformation isWorkPlaceJoined]
+-[MSIDRegistrationInformation securityIdentity]
+-[MSIDRegistrationInformation certificate]
+-[MSIDRegistrationInformation certificateSubject]
+-[MSIDRegistrationInformation certificateData]
+-[MSIDRegistrationInformation certificateIssuer]
+-[MSIDRegistrationInformation privateKey]
+-[MSIDRegistrationInformation .cxx_destruct]
++[MSIDErrorConverter initialize]
++[MSIDErrorConverter setErrorConverter:]
++[MSIDErrorConverter errorConverter]
++[MSIDErrorConverter defaultErrorConverter]
+_s_errorConverter
+_s_defaultErrorConverter
+-[MSIDAADV1TokenResponse resource]
+-[MSIDAADV1TokenResponse isMultiResource]
+-[MSIDAADV1TokenResponse idTokenObj]
+-[MSIDAADV1TokenResponse target]
+-[MSIDAADV1TokenResponse accountType]
+-[MSIDPkce init]
++[MSIDPkce createCodeVerifier]
++[MSIDPkce createChallangeFromCodeVerifier:]
+-[MSIDPkce codeChallengeMethod]
+-[MSIDPkce copyWithZone:]
+-[MSIDPkce codeVerifier]
+-[MSIDPkce codeChallenge]
+-[MSIDPkce .cxx_destruct]
+_OBJC_IVAR_$_MSIDPkce._codeVerifier
+_OBJC_IVAR_$_MSIDPkce._codeChallenge
+-[MSIDTelemetryAPIEvent setCorrelationId:]
+-[MSIDTelemetryAPIEvent setExtendedExpiresOnSetting:]
+-[MSIDTelemetryAPIEvent setUserId:]
+-[MSIDTelemetryAPIEvent setClientId:]
+-[MSIDTelemetryAPIEvent setIsExtendedLifeTimeToken:]
+-[MSIDTelemetryAPIEvent setErrorDescription:]
+-[MSIDTelemetryAPIEvent setErrorDomain:]
+-[MSIDTelemetryAPIEvent setAuthorityValidationStatus:]
+-[MSIDTelemetryAPIEvent setAuthority:]
+-[MSIDTelemetryAPIEvent setAuthorityType:]
+-[MSIDTelemetryAPIEvent setGrantType:]
+-[MSIDTelemetryAPIEvent setAPIStatus:]
+-[MSIDTelemetryAPIEvent setApiId:]
+-[MSIDTelemetryAPIEvent setWebviewType:]
++[MSIDAuthority initialize]
++[MSIDAuthority openIdConfigurationCache]
+-[MSIDAuthority initWithURL:context:error:]
+-[MSIDAuthority resolveAndValidate:userPrincipalName:context:completionBlock:]
+___78-[MSIDAuthority resolveAndValidate:userPrincipalName:context:completionBlock:]_block_invoke
+-[MSIDAuthority networkUrlWithContext:]
+-[MSIDAuthority cacheUrlWithContext:]
+-[MSIDAuthority legacyAccessTokenLookupAuthorities]
+-[MSIDAuthority universalAuthorityURL]
+-[MSIDAuthority legacyRefreshTokenLookupAliases]
+-[MSIDAuthority defaultCacheEnvironmentAliases]
+-[MSIDAuthority isKnown]
+-[MSIDAuthority telemetryAuthorityType]
+-[MSIDAuthority loadOpenIdMetadataWithContext:completionBlock:]
+___63-[MSIDAuthority loadOpenIdMetadataWithContext:completionBlock:]_block_invoke
+___copy_helper_block_.54
+___destroy_helper_block_.55
++[MSIDAuthority isAuthorityFormatValid:context:error:]
+-[MSIDAuthority isEqual:]
+-[MSIDAuthority hash]
+-[MSIDAuthority isEqualToItem:]
+-[MSIDAuthority description]
+-[MSIDAuthority copyWithZone:]
+-[MSIDAuthority resolver]
+-[MSIDAuthority url]
+-[MSIDAuthority environment]
+-[MSIDAuthority openIdConfigurationEndpoint]
+-[MSIDAuthority setOpenIdConfigurationEndpoint:]
+-[MSIDAuthority metadata]
+-[MSIDAuthority setMetadata:]
+-[MSIDAuthority .cxx_destruct]
+_s_openIdConfigurationCache
+_OBJC_IVAR_$_MSIDAuthority._environment
+_OBJC_IVAR_$_MSIDAuthority._metadata
++[MSIDPkeyAuthHelper computeThumbprint:]
++[MSIDPkeyAuthHelper computeThumbprint:isSha2:]
++[MSIDPkeyAuthHelper createDeviceAuthResponse:challengeData:context:error:]
++[MSIDPkeyAuthHelper getOrgUnitFromIssuer:]
++[MSIDPkeyAuthHelper isValidIssuer:keychainCertIssuer:]
++[MSIDPkeyAuthHelper createDeviceAuthResponse:nonce:identity:]
+-[MSIDB2CAuthority initWithURL:context:error:]
++[MSIDB2CAuthority isAuthorityFormatValid:context:error:]
+-[MSIDB2CAuthority telemetryAuthorityType]
+-[MSIDB2CAuthority resolver]
++[MSIDB2CAuthority normalizedAuthorityUrl:context:error:]
+-[MSIDDefaultTokenCacheAccessor initWithDataSource:otherCacheAccessors:factory:]
+-[MSIDDefaultTokenCacheAccessor saveTokensWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveTokensWithBrokerResponse:saveSSOStateOnly:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveSSOStateWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor getRefreshTokenWithAccount:familyId:configuration:context:error:]
+-[MSIDDefaultTokenCacheAccessor clearWithContext:error:]
+-[MSIDDefaultTokenCacheAccessor allTokensWithContext:error:]
+-[MSIDDefaultTokenCacheAccessor getAccessTokenForAccount:configuration:context:error:]
+-[MSIDDefaultTokenCacheAccessor getIDTokenForAccount:configuration:context:error:]
+-[MSIDDefaultTokenCacheAccessor allAccountsForAuthority:clientId:familyId:context:error:]
+-[MSIDDefaultTokenCacheAccessor accountForIdentifier:familyId:configuration:context:error:]
+-[MSIDDefaultTokenCacheAccessor removeAccount:context:error:]
+-[MSIDDefaultTokenCacheAccessor clearCacheForAccount:authority:clientId:context:error:]
+-[MSIDDefaultTokenCacheAccessor validateAndRemoveRefreshToken:context:error:]
+-[MSIDDefaultTokenCacheAccessor clearCacheForAccount:clientId:context:error:]
+-[MSIDDefaultTokenCacheAccessor checkAccountIdentifier:context:error:]
+-[MSIDDefaultTokenCacheAccessor fillInternalErrorWithMessage:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveAccessTokenWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveIDTokenWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveRefreshTokenWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveAccountWithConfiguration:response:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveAccessToken:context:error:]
+-[MSIDDefaultTokenCacheAccessor removeToken:context:error:]
+-[MSIDDefaultTokenCacheAccessor getAccountsForEnvironment:environmentAliases:context:error:]
+-[MSIDDefaultTokenCacheAccessor getTokenWithAuthority:cacheQuery:context:error:]
+-[MSIDDefaultTokenCacheAccessor getRefreshTokenByLegacyUserId:authority:clientId:familyId:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveToken:context:error:]
+-[MSIDDefaultTokenCacheAccessor saveAccount:context:error:]
+-[MSIDDefaultTokenCacheAccessor validTokensFromCacheItems:]
+-[MSIDDefaultTokenCacheAccessor .cxx_destruct]
+_OBJC_IVAR_$_MSIDDefaultTokenCacheAccessor._accountCredentialCache
+_OBJC_IVAR_$_MSIDDefaultTokenCacheAccessor._otherAccessors
+_OBJC_IVAR_$_MSIDDefaultTokenCacheAccessor._factory
+l_OBJC_PROTOCOL_$_MSIDCacheAccessor
+l_OBJC_LABEL_PROTOCOL_$_MSIDCacheAccessor
+-[NSString(MSIDExtensions) msidBase64UrlEncode]
+-[NSString(MSIDExtensions) msidBase64UrlDecode]
++[NSString(MSIDExtensions) msidIsStringNilOrBlank:]
+___51+[NSString(MSIDExtensions) msidIsStringNilOrBlank:]_block_invoke
+-[NSString(MSIDExtensions) msidTrimmedString]
+-[NSString(MSIDExtensions) msidWWWFormURLDecode]
+-[NSString(MSIDExtensions) msidWWWFormURLEncode]
+___48-[NSString(MSIDExtensions) msidWWWFormURLEncode]_block_invoke
+-[NSString(MSIDExtensions) msidTokenHash]
++[NSString(MSIDExtensions) msidRandomUrlSafeStringOfByteSize:]
++[NSString(MSIDExtensions) msidHexStringFromData:]
++[NSString(MSIDExtensions) msidBase64UrlEncodedStringFromData:]
++[NSString(MSIDExtensions) msidWWWFormURLEncodedStringFromDictionary:]
+___70+[NSString(MSIDExtensions) msidWWWFormURLEncodedStringFromDictionary:]_block_invoke
+-[NSString(MSIDExtensions) msidIsEquivalentWithAnyAlias:]
++[NSString(MSIDExtensions) msidStringFromOrderedSet:]
+-[NSString(MSIDExtensions) msidData]
+-[NSString(MSIDExtensions) msidScopeSet]
+_msidIsStringNilOrBlank:.nonWhiteCharSet
+_msidIsStringNilOrBlank:.once
+_msidWWWFormURLEncode.set
+_msidWWWFormURLEncode.onceToken
+___block_descriptor_tmp.37
+___block_literal_global.38
+___block_descriptor_tmp.107
+-[NSOrderedSet(MSIDExtensions) msidToString]
++[NSOrderedSet(MSIDExtensions) msidOrderedSetFromString:]
+-[MSIDAadAuthorityCacheRecord networkHost]
+-[MSIDAadAuthorityCacheRecord setNetworkHost:]
+-[MSIDAadAuthorityCacheRecord cacheHost]
+-[MSIDAadAuthorityCacheRecord setCacheHost:]
+-[MSIDAadAuthorityCacheRecord aliases]
+-[MSIDAadAuthorityCacheRecord setAliases:]
+-[MSIDAadAuthorityCacheRecord .cxx_destruct]
+_OBJC_IVAR_$_MSIDAadAuthorityCacheRecord._networkHost
+_OBJC_IVAR_$_MSIDAadAuthorityCacheRecord._cacheHost
+_OBJC_IVAR_$_MSIDAadAuthorityCacheRecord._aliases
++[MSIDHelpers msidIntegerValue:]
++[MSIDHelpers normalizeUserId:]
++[MSIDKeychainTokenCache defaultKeychainGroup]
++[MSIDKeychainTokenCache setDefaultKeychainGroup:]
++[MSIDKeychainTokenCache defaultKeychainCache]
+___46+[MSIDKeychainTokenCache defaultKeychainCache]_block_invoke
+-[MSIDKeychainTokenCache init]
+-[MSIDKeychainTokenCache initWithGroup:]
+-[MSIDKeychainTokenCache saveToken:key:serializer:context:error:]
+-[MSIDKeychainTokenCache tokenWithKey:serializer:context:error:]
+-[MSIDKeychainTokenCache tokensWithKey:serializer:context:error:]
+-[MSIDKeychainTokenCache saveAccount:key:serializer:context:error:]
+-[MSIDKeychainTokenCache accountWithKey:serializer:context:error:]
+-[MSIDKeychainTokenCache accountsWithKey:serializer:context:error:]
+-[MSIDKeychainTokenCache removeItemsWithKey:context:error:]
+-[MSIDKeychainTokenCache saveWipeInfoWithContext:error:]
+-[MSIDKeychainTokenCache wipeInfo:error:]
+-[MSIDKeychainTokenCache deleteTombstoneWithService:account:context:]
+-[MSIDKeychainTokenCache itemsWithKey:context:error:]
+-[MSIDKeychainTokenCache saveData:key:context:error:]
+-[MSIDKeychainTokenCache clearWithContext:error:]
+-[MSIDKeychainTokenCache keychainGroup]
+-[MSIDKeychainTokenCache setKeychainGroup:]
+-[MSIDKeychainTokenCache defaultKeychainQuery]
+-[MSIDKeychainTokenCache setDefaultKeychainQuery:]
+-[MSIDKeychainTokenCache defaultWipeQuery]
+-[MSIDKeychainTokenCache setDefaultWipeQuery:]
+-[MSIDKeychainTokenCache .cxx_destruct]
+_s_defaultCache
+_s_defaultKeychainGroup
+_defaultKeychainCache.s_once
+_OBJC_IVAR_$_MSIDKeychainTokenCache._keychainGroup
+_OBJC_IVAR_$_MSIDKeychainTokenCache._defaultKeychainQuery
+_OBJC_IVAR_$_MSIDKeychainTokenCache._defaultWipeQuery
+l_OBJC_PROTOCOL_$_MSIDTokenCacheDataSource
+l_OBJC_LABEL_PROTOCOL_$_MSIDTokenCacheDataSource
+-[MSIDAADEndpointProvider oauth2AuthorizeEndpointWithUrl:]
+-[MSIDAADEndpointProvider oauth2TokenEndpointWithUrl:]
+-[MSIDAADEndpointProvider drsDiscoveryEndpointWithDomain:adfsType:]
+-[MSIDAADEndpointProvider webFingerDiscoveryEndpointWithIssuer:]
+-[MSIDAADEndpointProvider openIdConfigurationEndpointWithUrl:]
+-[MSIDAADEndpointProvider aadAuthorityDiscoveryEndpointWithHost:]
+-[MSIDAADEndpointProvider aadApiVersionWithDelimiter]
+l_OBJC_PROTOCOL_$_MSIDAADEndpointProviding
+l_OBJC_LABEL_PROTOCOL_$_MSIDAADEndpointProviding
++[MSIDDeviceId getCPUInfo]
++[MSIDDeviceId deviceId]
+___24+[MSIDDeviceId deviceId]_block_invoke
++[MSIDDeviceId deviceOSVersion]
++[MSIDDeviceId deviceOSId]
+___26+[MSIDDeviceId deviceOSId]_block_invoke
+___copy_helper_block_.42
+___destroy_helper_block_.43
++[MSIDDeviceId deviceTelemetryId]
++[MSIDDeviceId applicationName]
++[MSIDDeviceId applicationVersion]
++[MSIDDeviceId setIdValue:forKey:]
+_deviceId.s_adalId
+_deviceId.deviceIdOnce
+_deviceOSId.s_OSString
+_deviceOSId.osStringOnce
+___block_descriptor_tmp.45
+-[MSIDB2CAuthorityResolver resolveAuthority:userPrincipalName:validate:context:completionBlock:]
+-[MSIDAADAuthorizationCodeGrantRequest initWithEndpoint:clientId:scope:redirectUri:code:codeVerifier:context:]
+-[MSIDAADRequestErrorHandler handleError:httpResponse:data:httpRequest:context:completionBlock:]
+___96-[MSIDAADRequestErrorHandler handleError:httpResponse:data:httpRequest:context:completionBlock:]_block_invoke
+l_OBJC_PROTOCOL_$_MSIDHttpRequestErrorHandling
+l_OBJC_LABEL_PROTOCOL_$_MSIDHttpRequestErrorHandling
+-[MSIDAADV1RefreshTokenGrantRequest initWithEndpoint:clientId:scope:refreshToken:resource:context:]
+-[MSIDAADAuthorityMetadataResponse openIdConfigurationEndpoint]
+-[MSIDAADAuthorityMetadataResponse setOpenIdConfigurationEndpoint:]
+-[MSIDAADAuthorityMetadataResponse metadata]
+-[MSIDAADAuthorityMetadataResponse setMetadata:]
+-[MSIDAADAuthorityMetadataResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDAADAuthorityMetadataResponse._openIdConfigurationEndpoint
+_OBJC_IVAR_$_MSIDAADAuthorityMetadataResponse._metadata
+-[MSIDHttpResponseSerializer responseObjectForResponse:data:context:error:]
+l_OBJC_PROTOCOL_$_MSIDResponseSerialization
+l_OBJC_LABEL_PROTOCOL_$_MSIDResponseSerialization
+-[MSIDAADResponseSerializer responseObjectForResponse:data:context:error:]
+-[MSIDTestContext correlationId]
+-[MSIDTestContext setCorrelationId:]
+-[MSIDTestContext logComponent]
+-[MSIDTestContext setLogComponent:]
+-[MSIDTestContext telemetryRequestId]
+-[MSIDTestContext setTelemetryRequestId:]
+-[MSIDTestContext .cxx_destruct]
+_OBJC_IVAR_$_MSIDTestContext._correlationId
+_OBJC_IVAR_$_MSIDTestContext._logComponent
+_OBJC_IVAR_$_MSIDTestContext._telemetryRequestId
+-[MSIDDRSDiscoveryResponseSerializer responseObjectForResponse:data:context:error:]
++[MSIDAADIdTokenClaimsFactory claimsFromRawIdToken:error:]
+-[MSIDAADV1Oauth2Factory checkResponseClass:context:error:]
+-[MSIDAADV1Oauth2Factory tokenResponseFromJSON:context:error:]
+-[MSIDAADV1Oauth2Factory tokenResponseFromJSON:refreshToken:context:error:]
+-[MSIDAADV1Oauth2Factory verifyResponse:context:error:]
+-[MSIDAADV1Oauth2Factory verifyResponse:fromRefreshToken:context:error:]
+-[MSIDAADV1Oauth2Factory fillAccessToken:fromResponse:configuration:]
+-[MSIDAADV1Oauth2Factory fillBaseToken:fromResponse:configuration:]
+-[MSIDAADV1Oauth2Factory fillAccount:fromResponse:configuration:]
+-[MSIDAADV1Oauth2Factory fillIDToken:fromResponse:configuration:]
+-[MSIDAADV1Oauth2Factory webviewFactory]
+-[MSIDAADAuthorityMetadataRequest initWithEndpoint:authority:context:]
++[MSIDKeychainUtil teamId]
+___26+[MSIDKeychainUtil teamId]_block_invoke
++[MSIDKeychainUtil appDefaultAccessGroup]
+___41+[MSIDKeychainUtil appDefaultAccessGroup]_block_invoke
++[MSIDKeychainUtil accessGroup:]
+_teamId.once
+_teamId.keychainTeamId
+_appDefaultAccessGroup.once
+_appDefaultAccessGroup.appDefaultAccessGroup
+___block_descriptor_tmp.19
+___block_literal_global.20
+-[MSIDCache init]
+-[MSIDCache objectForKey:]
+___26-[MSIDCache objectForKey:]_block_invoke
+-[MSIDCache setObject:forKey:]
+___30-[MSIDCache setObject:forKey:]_block_invoke
+___copy_helper_block_.22
+___destroy_helper_block_.23
+-[MSIDCache removeObjectForKey:]
+___32-[MSIDCache removeObjectForKey:]_block_invoke
+___copy_helper_block_.27
+___destroy_helper_block_.28
+-[MSIDCache removeAllObjects]
+___29-[MSIDCache removeAllObjects]_block_invoke
+___copy_helper_block_.32
+___destroy_helper_block_.33
+-[MSIDCache count]
+___18-[MSIDCache count]_block_invoke
+___copy_helper_block_.39
+___destroy_helper_block_.40
+-[MSIDCache copyWithZone:]
+-[MSIDCache container]
+-[MSIDCache setContainer:]
+-[MSIDCache synchronizationQueue]
+-[MSIDCache setSynchronizationQueue:]
+-[MSIDCache .cxx_destruct]
+_OBJC_IVAR_$_MSIDCache._synchronizationQueue
+_OBJC_IVAR_$_MSIDCache._container
+___block_descriptor_tmp.24
+___block_descriptor_tmp.34
+___block_descriptor_tmp.41
+-[MSIDAccount copyWithZone:]
+-[MSIDAccount isEqual:]
+-[MSIDAccount hash]
+-[MSIDAccount isEqualToItem:]
+-[MSIDAccount initWithAccountCacheItem:]
+-[MSIDAccount accountCacheItem]
+-[MSIDAccount description]
+-[MSIDAccount accountType]
+-[MSIDAccount setAccountType:]
+-[MSIDAccount localAccountId]
+-[MSIDAccount setLocalAccountId:]
+-[MSIDAccount authority]
+-[MSIDAccount setAuthority:]
+-[MSIDAccount storageAuthority]
+-[MSIDAccount setStorageAuthority:]
+-[MSIDAccount username]
+-[MSIDAccount setUsername:]
+-[MSIDAccount givenName]
+-[MSIDAccount setGivenName:]
+-[MSIDAccount middleName]
+-[MSIDAccount setMiddleName:]
+-[MSIDAccount familyName]
+-[MSIDAccount setFamilyName:]
+-[MSIDAccount name]
+-[MSIDAccount setName:]
+-[MSIDAccount accountIdentifier]
+-[MSIDAccount setAccountIdentifier:]
+-[MSIDAccount clientInfo]
+-[MSIDAccount setClientInfo:]
+-[MSIDAccount alternativeAccountId]
+-[MSIDAccount setAlternativeAccountId:]
+-[MSIDAccount .cxx_destruct]
+_OBJC_IVAR_$_MSIDAccount._accountIdentifier
+_OBJC_IVAR_$_MSIDAccount._localAccountId
+_OBJC_IVAR_$_MSIDAccount._accountType
+_OBJC_IVAR_$_MSIDAccount._authority
+_OBJC_IVAR_$_MSIDAccount._username
+_OBJC_IVAR_$_MSIDAccount._givenName
+_OBJC_IVAR_$_MSIDAccount._middleName
+_OBJC_IVAR_$_MSIDAccount._familyName
+_OBJC_IVAR_$_MSIDAccount._name
+_OBJC_IVAR_$_MSIDAccount._clientInfo
+_OBJC_IVAR_$_MSIDAccount._alternativeAccountId
+_OBJC_IVAR_$_MSIDAccount._storageAuthority
+-[MSIDJsonResponseSerializer responseObjectForResponse:data:context:error:]
+-[NSError(MSIDExtensions) msidErrorWithFilteringOptions:]
+-[MSIDOpenIdConfigurationInfoResponseSerializer responseObjectForResponse:data:context:error:]
+-[MSIDOpenIdConfigurationInfoResponseSerializer endpoint]
+-[MSIDOpenIdConfigurationInfoResponseSerializer setEndpoint:]
+-[MSIDOpenIdConfigurationInfoResponseSerializer .cxx_destruct]
+_OBJC_IVAR_$_MSIDOpenIdConfigurationInfoResponseSerializer._endpoint
++[MSIDTelemetry(Cache) startCacheEventWithName:context:]
++[MSIDTelemetry(Cache) stopCacheEvent:withItem:success:context:]
++[MSIDTelemetry(Cache) stopFailedCacheEvent:wipeData:context:]
+-[MSIDAADAuthority initWithURL:context:error:]
+-[MSIDAADAuthority initWithURL:rawTenant:context:error:]
+-[MSIDAADAuthority networkUrlWithContext:]
+-[MSIDAADAuthority cacheUrlWithContext:]
+-[MSIDAADAuthority legacyAccessTokenLookupAuthorities]
+-[MSIDAADAuthority defaultCacheEnvironmentAliases]
+-[MSIDAADAuthority universalAuthorityURL]
+-[MSIDAADAuthority legacyRefreshTokenLookupAliases]
++[MSIDAADAuthority isAuthorityFormatValid:context:error:]
++[MSIDAADAuthority aadAuthorityWithEnvironment:rawTenant:context:error:]
+-[MSIDAADAuthority telemetryAuthorityType]
+-[MSIDAADAuthority copyWithZone:]
+-[MSIDAADAuthority resolver]
++[MSIDAADAuthority normalizedAuthorityUrl:context:error:]
++[MSIDAADAuthority tenantFromAuthorityUrl:context:error:]
+-[MSIDAADAuthority tenant]
+-[MSIDAADAuthority authorityCache]
+-[MSIDAADAuthority setAuthorityCache:]
+-[MSIDAADAuthority authorityFactory]
+-[MSIDAADAuthority setAuthorityFactory:]
+-[MSIDAADAuthority .cxx_destruct]
+_OBJC_IVAR_$_MSIDAADAuthority._tenant
+_OBJC_IVAR_$_MSIDAADAuthority._authorityCache
+_OBJC_IVAR_$_MSIDAADAuthority._authorityFactory
++[MSIDChallengeHandler handleChallenge:webview:context:completionHandler:]
++[MSIDChallengeHandler registerHandler:authMethod:]
+___51+[MSIDChallengeHandler registerHandler:authMethod:]_block_invoke
++[MSIDChallengeHandler resetHandlers]
+_s_handlers
+_registerHandler:authMethod:.once
+-[MSIDAADTenant initWithRawTenant:context:error:]
+-[MSIDAADTenant copyWithZone:]
+-[MSIDAADTenant rawTenant]
+-[MSIDAADTenant type]
+-[MSIDAADTenant .cxx_destruct]
+_OBJC_IVAR_$_MSIDAADTenant._type
+_OBJC_IVAR_$_MSIDAADTenant._rawTenant
+-[MSIDWebviewSession initWithWebviewController:factory:requestState:ignoreInvalidState:]
+-[MSIDWebviewSession webviewController]
+-[MSIDWebviewSession setWebviewController:]
+-[MSIDWebviewSession factory]
+-[MSIDWebviewSession setFactory:]
+-[MSIDWebviewSession requestState]
+-[MSIDWebviewSession setRequestState:]
+-[MSIDWebviewSession ignoreInvalidState]
+-[MSIDWebviewSession setIgnoreInvalidState:]
+-[MSIDWebviewSession .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebviewSession._webviewController
+_OBJC_IVAR_$_MSIDWebviewSession._factory
+_OBJC_IVAR_$_MSIDWebviewSession._requestState
+_OBJC_IVAR_$_MSIDWebviewSession._ignoreInvalidState
+-[MSIDAuthenticationSession initWithURL:callbackURLScheme:context:]
+-[MSIDAuthenticationSession isErrorCodeCanceledLogin:]
+-[MSIDAuthenticationSession startWithCompletionHandler:]
+___56-[MSIDAuthenticationSession startWithCompletionHandler:]_block_invoke
+-[MSIDAuthenticationSession cancel]
+-[MSIDAuthenticationSession notifyEndWebAuthWithURL:error:]
+-[MSIDAuthenticationSession startURL]
+-[MSIDAuthenticationSession callbackURLScheme]
+-[MSIDAuthenticationSession .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$_MSIDAuthenticationSession._startURL
+_OBJC_IVAR_$_MSIDAuthenticationSession._context
+_OBJC_IVAR_$_MSIDAuthenticationSession._telemetryRequestId
+_OBJC_IVAR_$_MSIDAuthenticationSession._telemetryEvent
+_OBJC_IVAR_$_MSIDAuthenticationSession._completionHandler
+_OBJC_IVAR_$_MSIDAuthenticationSession._callbackURLScheme
+_OBJC_IVAR_$_MSIDAuthenticationSession._webAuthSession
+_OBJC_IVAR_$_MSIDAuthenticationSession._authSession
+l_OBJC_PROTOCOL_$_MSIDWebviewInteracting
+l_OBJC_LABEL_PROTOCOL_$_MSIDWebviewInteracting
++[MSIDNotifications setWebAuthDidFailNotificationName:]
++[MSIDNotifications webAuthDidFailNotificationName]
++[MSIDNotifications setWebAuthDidCompleteNotificationName:]
++[MSIDNotifications webAuthDidCompleteNotificationName]
++[MSIDNotifications setWebAuthDidStartLoadNotificationName:]
++[MSIDNotifications webAuthDidStartLoadNotificationName]
++[MSIDNotifications setWebAuthDidFinishLoadNotificationName:]
++[MSIDNotifications webAuthDidFinishLoadNotificationName]
++[MSIDNotifications notifyWebAuthDidStartLoad:]
++[MSIDNotifications notifyWebAuthDidFinishLoad:]
++[MSIDNotifications notifyWebAuthDidFailWithError:]
++[MSIDNotifications notifyWebAuthDidCompleteWithURL:]
+_s_webAuthDidFailNotificationName
+_s_webAuthDidCompleteNotificationName
+_s_webAuthDidStartLoadNotificationName
+_s_webAuthDidFinishLoadNotificationName
+-[MSIDDefaultAccountCacheQuery account]
+-[MSIDDefaultAccountCacheQuery type]
+-[MSIDDefaultAccountCacheQuery exactMatch]
+-[MSIDDefaultAccountCacheQuery environmentAliases]
+-[MSIDDefaultAccountCacheQuery setEnvironmentAliases:]
+-[MSIDDefaultAccountCacheQuery .cxx_destruct]
+_OBJC_IVAR_$_MSIDDefaultAccountCacheQuery._environmentAliases
+-[MSIDAADV2WebviewFactory authorizationParametersFromConfiguration:requestState:]
+-[MSIDAADV1WebviewFactory authorizationParametersFromConfiguration:requestState:]
++[MSIDNTLMUIPrompt dismissPrompt]
+___33+[MSIDNTLMUIPrompt dismissPrompt]_block_invoke
++[MSIDNTLMUIPrompt presentPrompt:]
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke_2
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke.30
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke.44
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke_2.50
+___34+[MSIDNTLMUIPrompt presentPrompt:]_block_invoke_3
+___copy_helper_block_.59
+___destroy_helper_block_.60
+__presentedPrompt
+___block_descriptor_tmp.25
+___block_descriptor_tmp.46
+___block_literal_global.47
+___block_descriptor_tmp.51
+___block_literal_global.52
+___block_descriptor_tmp.55
+___block_literal_global.56
+___block_descriptor_tmp.61
+-[MSIDAADRefreshTokenGrantRequest initWithEndpoint:clientId:scope:refreshToken:context:]
+-[MSIDHttpRequestTelemetry init]
+-[MSIDHttpRequestTelemetry sendRequestEventWithId:]
+-[MSIDHttpRequestTelemetry responseReceivedEventWithContext:urlRequest:httpResponse:data:error:]
+-[MSIDHttpRequestTelemetry telemetry]
+-[MSIDHttpRequestTelemetry setTelemetry:]
+-[MSIDHttpRequestTelemetry .cxx_destruct]
+_OBJC_IVAR_$_MSIDHttpRequestTelemetry._telemetry
+l_OBJC_PROTOCOL_$_MSIDHttpRequestTelemetryHandling
+l_OBJC_LABEL_PROTOCOL_$_MSIDHttpRequestTelemetryHandling
+-[NSURL(MSIDExtensions) msidFragmentParameters]
+-[NSURL(MSIDExtensions) msidQueryParameters]
+-[NSURL(MSIDExtensions) msidIsEquivalentAuthority:]
+-[NSURL(MSIDExtensions) msidIsEquivalentAuthorityHost:]
+-[NSURL(MSIDExtensions) msidHostWithPortIfNecessary]
+-[NSURL(MSIDExtensions) msidTenant]
+-[NSURL(MSIDExtensions) msidAuthorityWithCloudInstanceHostname:]
++[NSURL(MSIDExtensions) msidURLWithEnvironment:tenant:]
++[NSURL(MSIDExtensions) msidURLWithEnvironment:]
+-[NSURL(MSIDExtensions) msidURLForPreferredHost:context:error:]
++[MSIDURLSessionManager initialize]
+-[MSIDURLSessionManager initWithConfiguration:delegate:]
+-[MSIDURLSessionManager dealloc]
++[MSIDURLSessionManager defaultManager]
++[MSIDURLSessionManager setDefaultManager:]
+-[MSIDURLSessionManager configuration]
+-[MSIDURLSessionManager session]
+-[MSIDURLSessionManager .cxx_destruct]
+_s_defaultManager
+_OBJC_IVAR_$_MSIDURLSessionManager._configuration
+_OBJC_IVAR_$_MSIDURLSessionManager._session
+-[MSIDADFSAuthority initWithURL:context:error:]
++[MSIDADFSAuthority isAuthorityFormatValid:context:error:]
+-[MSIDADFSAuthority telemetryAuthorityType]
+-[MSIDADFSAuthority resolver]
++[MSIDADFSAuthority normalizedAuthorityUrl:context:error:]
+-[MSIDAADV2Oauth2Factory checkResponseClass:context:error:]
+-[MSIDAADV2Oauth2Factory tokenResponseFromJSON:context:error:]
+-[MSIDAADV2Oauth2Factory tokenResponseFromJSON:refreshToken:context:error:]
+-[MSIDAADV2Oauth2Factory verifyResponse:context:error:]
+-[MSIDAADV2Oauth2Factory fillAccessToken:fromResponse:configuration:]
+-[MSIDAADV2Oauth2Factory fillIDToken:fromResponse:configuration:]
+-[MSIDAADV2Oauth2Factory fillAccount:fromResponse:configuration:]
+-[MSIDAADV2Oauth2Factory webviewFactory]
+-[MSIDMacTokenCache init]
++[MSIDMacTokenCache defaultCache]
+___33+[MSIDMacTokenCache defaultCache]_block_invoke
+-[MSIDMacTokenCache serialize]
+___30-[MSIDMacTokenCache serialize]_block_invoke
+-[MSIDMacTokenCache deserialize:error:]
+___39-[MSIDMacTokenCache deserialize:error:]_block_invoke
+___copy_helper_block_.82
+___destroy_helper_block_.83
+-[MSIDMacTokenCache initializeCacheIfNecessary]
+-[MSIDMacTokenCache clear]
+___26-[MSIDMacTokenCache clear]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
+-[MSIDMacTokenCache saveToken:key:serializer:context:error:]
+-[MSIDMacTokenCache tokenWithKey:serializer:context:error:]
+-[MSIDMacTokenCache tokensWithKey:serializer:context:error:]
+-[MSIDMacTokenCache saveAccount:key:serializer:context:error:]
+-[MSIDMacTokenCache accountWithKey:serializer:context:error:]
+-[MSIDMacTokenCache accountsWithKey:serializer:context:error:]
+-[MSIDMacTokenCache removeItemsWithKey:context:error:]
+___54-[MSIDMacTokenCache removeItemsWithKey:context:error:]_block_invoke
+___copy_helper_block_.123
+___destroy_helper_block_.124
+-[MSIDMacTokenCache saveWipeInfoWithContext:error:]
+-[MSIDMacTokenCache wipeInfo:error:]
+-[MSIDMacTokenCache addToItems:fromDictionary:key:]
+-[MSIDMacTokenCache addToItems:forUserId:tokens:key:]
+-[MSIDMacTokenCache validateCache:error:]
+-[MSIDMacTokenCache removeItemsWithKeyImpl:context:error:]
+-[MSIDMacTokenCache setItemImpl:key:serializer:context:error:]
+___62-[MSIDMacTokenCache setItemImpl:key:serializer:context:error:]_block_invoke
+___copy_helper_block_.192
+___destroy_helper_block_.193
+-[MSIDMacTokenCache itemsWithKeyImpl:serializer:context:error:]
+___63-[MSIDMacTokenCache itemsWithKeyImpl:serializer:context:error:]_block_invoke
+___copy_helper_block_.197
+___destroy_helper_block_.198
+-[MSIDMacTokenCache legacyKeyWithoutAccount:]
+-[MSIDMacTokenCache clearWithContext:error:]
+-[MSIDMacTokenCache delegate]
+-[MSIDMacTokenCache setDelegate:]
+-[MSIDMacTokenCache cache]
+-[MSIDMacTokenCache setCache:]
+-[MSIDMacTokenCache synchronizationQueue]
+-[MSIDMacTokenCache setSynchronizationQueue:]
+-[MSIDMacTokenCache .cxx_destruct]
+_OBJC_IVAR_$_MSIDMacTokenCache._synchronizationQueue
+_defaultCache.once
+_defaultCache.cache
+___block_descriptor_tmp.64
+___block_descriptor_tmp.84
+_OBJC_IVAR_$_MSIDMacTokenCache._cache
+___block_descriptor_tmp.125
+___block_descriptor_tmp.194
+___block_descriptor_tmp.199
+_OBJC_IVAR_$_MSIDMacTokenCache._delegate
+-[MSIDOpenIdConfigurationInfoRequest initWithEndpoint:context:]
+-[MSIDAuthorityCacheRecord openIdConfigurationEndpoint]
+-[MSIDAuthorityCacheRecord setOpenIdConfigurationEndpoint:]
+-[MSIDAuthorityCacheRecord validated]
+-[MSIDAuthorityCacheRecord setValidated:]
+-[MSIDAuthorityCacheRecord error]
+-[MSIDAuthorityCacheRecord setError:]
+-[MSIDAuthorityCacheRecord .cxx_destruct]
+_OBJC_IVAR_$_MSIDAuthorityCacheRecord._openIdConfigurationEndpoint
+_OBJC_IVAR_$_MSIDAuthorityCacheRecord._validated
+_OBJC_IVAR_$_MSIDAuthorityCacheRecord._error
+-[MSIDWebFingerRequest initWithIssuer:authority:context:]
+-[MSIDOauth2Factory tokenResponseFromJSON:context:error:]
+-[MSIDOauth2Factory verifyResponse:context:error:]
+-[MSIDOauth2Factory baseTokenFromResponse:configuration:]
+-[MSIDOauth2Factory accessTokenFromResponse:configuration:]
+-[MSIDOauth2Factory legacyAccessTokenFromResponse:configuration:]
+-[MSIDOauth2Factory legacyRefreshTokenFromResponse:configuration:]
+-[MSIDOauth2Factory refreshTokenFromResponse:configuration:]
+-[MSIDOauth2Factory idTokenFromResponse:configuration:]
+-[MSIDOauth2Factory legacyTokenFromResponse:configuration:]
+-[MSIDOauth2Factory accountFromResponse:configuration:]
+-[MSIDOauth2Factory fillBaseToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillAccessToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillRefreshToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillIDToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillLegacyToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillLegacyAccessToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillLegacyRefreshToken:fromResponse:configuration:]
+-[MSIDOauth2Factory fillAccount:fromResponse:configuration:]
+-[MSIDOauth2Factory webviewFactory]
+-[MSIDOauth2Factory .cxx_destruct]
+-[MSIDWebOpenBrowserResponse initWithURL:context:error:]
+-[MSIDWebOpenBrowserResponse browserURL]
+-[MSIDWebOpenBrowserResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebOpenBrowserResponse._browserURL
+-[NSDate(MSIDExtensions) msidToString]
+___38-[NSDate(MSIDExtensions) msidToString]_block_invoke
+-[NSDate(MSIDExtensions) msidDateToTimestamp]
++[NSDate(MSIDExtensions) msidDateFromTimeStamp:]
+_msidToString.s_dateFormatter
+_msidToString.s_dateOnce
+-[MSIDAccountIdentifier initWithLegacyAccountId:clientInfo:]
+-[MSIDAccountIdentifier initWithLegacyAccountId:homeAccountId:]
+-[MSIDAccountIdentifier copyWithZone:]
+-[MSIDAccountIdentifier isEqual:]
+-[MSIDAccountIdentifier hash]
+-[MSIDAccountIdentifier isEqualToItem:]
+-[MSIDAccountIdentifier homeAccountId]
+-[MSIDAccountIdentifier setHomeAccountId:]
+-[MSIDAccountIdentifier legacyAccountId]
+-[MSIDAccountIdentifier setLegacyAccountId:]
+-[MSIDAccountIdentifier .cxx_destruct]
+_OBJC_IVAR_$_MSIDAccountIdentifier._legacyAccountId
+_OBJC_IVAR_$_MSIDAccountIdentifier._homeAccountId
+-[MSIDSystemWebviewController initWithStartURL:callbackURLScheme:parentController:useAuthenticationSession:allowSafariViewController:context:]
+-[MSIDSystemWebviewController startWithCompletionHandler:]
+-[MSIDSystemWebviewController cancel]
+-[MSIDSystemWebviewController handleURLResponseForSafariViewController:]
+-[MSIDSystemWebviewController startURL]
+-[MSIDSystemWebviewController callbackURLScheme]
+-[MSIDSystemWebviewController parentController]
+-[MSIDSystemWebviewController setParentController:]
+-[MSIDSystemWebviewController .cxx_destruct]
+_OBJC_IVAR_$_MSIDSystemWebviewController._startURL
+_OBJC_IVAR_$_MSIDSystemWebviewController._context
+_OBJC_IVAR_$_MSIDSystemWebviewController._callbackURLScheme
+_OBJC_IVAR_$_MSIDSystemWebviewController._parentController
+_OBJC_IVAR_$_MSIDSystemWebviewController._allowSafariViewController
+_OBJC_IVAR_$_MSIDSystemWebviewController._useAuthenticationSession
+_OBJC_IVAR_$_MSIDSystemWebviewController._session
+-[MSIDUrlRequestSerializer serializeWithRequest:parameters:]
+-[MSIDUrlRequestSerializer shouldEncodeParametersInURL:]
+l_OBJC_PROTOCOL_$_MSIDRequestSerialization
+l_OBJC_LABEL_PROTOCOL_$_MSIDRequestSerialization
++[MSIDAppExtensionUtil isExecutingInAppExtension]
++[MSIDAppExtensionUtil sharedApplication]
++[MSIDAppExtensionUtil sharedApplicationOpenURL:]
+___49+[MSIDAppExtensionUtil sharedApplicationOpenURL:]_block_invoke
+-[MSIDTokenRequest initWithEndpoint:clientId:scope:context:]
++[MSIDNTLMHandler load]
++[MSIDNTLMHandler resetHandler]
++[MSIDNTLMHandler handleChallenge:webview:context:completionHandler:]
+___69+[MSIDNTLMHandler handleChallenge:webview:context:completionHandler:]_block_invoke
+l_OBJC_PROTOCOL_$_MSIDChallengeHandling
+l_OBJC_LABEL_PROTOCOL_$_MSIDChallengeHandling
++[MSIDPKeyAuthHandler handleChallenge:context:completionHandler:]
+-[MSIDBaseToken copyWithZone:]
+-[MSIDBaseToken isEqual:]
+-[MSIDBaseToken hash]
+-[MSIDBaseToken isEqualToItem:]
+-[MSIDBaseToken credentialType]
+-[MSIDBaseToken supportsCredentialType:]
+-[MSIDBaseToken initWithTokenCacheItem:]
+-[MSIDBaseToken tokenCacheItem]
+-[MSIDBaseToken description]
+-[MSIDBaseToken authority]
+-[MSIDBaseToken setAuthority:]
+-[MSIDBaseToken storageAuthority]
+-[MSIDBaseToken setStorageAuthority:]
+-[MSIDBaseToken clientId]
+-[MSIDBaseToken setClientId:]
+-[MSIDBaseToken clientInfo]
+-[MSIDBaseToken setClientInfo:]
+-[MSIDBaseToken additionalServerInfo]
+-[MSIDBaseToken setAdditionalServerInfo:]
+-[MSIDBaseToken accountIdentifier]
+-[MSIDBaseToken setAccountIdentifier:]
+-[MSIDBaseToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDBaseToken._storageAuthority
+-[MSIDTelemetryCacheEvent initWithName:requestId:correlationId:]
+-[MSIDTelemetryCacheEvent setTokenType:]
+-[MSIDTelemetryCacheEvent setStatus:]
+-[MSIDTelemetryCacheEvent setIsRT:]
+-[MSIDTelemetryCacheEvent setIsMRRT:]
+-[MSIDTelemetryCacheEvent setIsFRT:]
+-[MSIDTelemetryCacheEvent setRTStatus:]
+-[MSIDTelemetryCacheEvent setMRRTStatus:]
+-[MSIDTelemetryCacheEvent setFRTStatus:]
+-[MSIDTelemetryCacheEvent setSpeInfo:]
+-[MSIDTelemetryCacheEvent setToken:]
+-[MSIDTelemetryCacheEvent setCacheWipeApp:]
+-[MSIDTelemetryCacheEvent setCacheWipeTime:]
+-[MSIDTelemetryCacheEvent setWipeData:]
+-[MSIDOAuth2EmbeddedWebviewController initWithStartURL:endURL:webview:customHeaders:context:]
+-[MSIDOAuth2EmbeddedWebviewController dealloc]
+-[MSIDOAuth2EmbeddedWebviewController startWithCompletionHandler:]
+___66-[MSIDOAuth2EmbeddedWebviewController startWithCompletionHandler:]_block_invoke
+-[MSIDOAuth2EmbeddedWebviewController cancel]
+-[MSIDOAuth2EmbeddedWebviewController userCancel]
+-[MSIDOAuth2EmbeddedWebviewController loadView:]
+-[MSIDOAuth2EmbeddedWebviewController endWebAuthWithURL:error:]
+___63-[MSIDOAuth2EmbeddedWebviewController endWebAuthWithURL:error:]_block_invoke
+___63-[MSIDOAuth2EmbeddedWebviewController endWebAuthWithURL:error:]_block_invoke_2
+___copy_helper_block_.66
+___destroy_helper_block_.67
+___copy_helper_block_.71
+___destroy_helper_block_.72
+-[MSIDOAuth2EmbeddedWebviewController dispatchCompletionBlock:error:]
+-[MSIDOAuth2EmbeddedWebviewController startRequest:]
+-[MSIDOAuth2EmbeddedWebviewController loadRequest:]
+-[MSIDOAuth2EmbeddedWebviewController webView:decidePolicyForNavigationAction:decisionHandler:]
+-[MSIDOAuth2EmbeddedWebviewController webView:didStartProvisionalNavigation:]
+-[MSIDOAuth2EmbeddedWebviewController webView:didFinishNavigation:]
+-[MSIDOAuth2EmbeddedWebviewController webView:didFailNavigation:withError:]
+-[MSIDOAuth2EmbeddedWebviewController webView:didReceiveAuthenticationChallenge:completionHandler:]
+-[MSIDOAuth2EmbeddedWebviewController completeWebAuthWithURL:]
+-[MSIDOAuth2EmbeddedWebviewController webAuthFailWithError:]
+-[MSIDOAuth2EmbeddedWebviewController decidePolicyForNavigationAction:webview:decisionHandler:]
+-[MSIDOAuth2EmbeddedWebviewController onStartLoadingIndicator:]
+-[MSIDOAuth2EmbeddedWebviewController stopSpinner]
+-[MSIDOAuth2EmbeddedWebviewController startURL]
+-[MSIDOAuth2EmbeddedWebviewController .cxx_destruct]
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._startURL
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._endURL
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._customHeaders
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._completionLock
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._context
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._completionHandler
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._telemetryEvent
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._telemetryRequestId
+___block_descriptor_tmp.68
+___block_descriptor_tmp.73
+_OBJC_IVAR_$_MSIDOAuth2EmbeddedWebviewController._spinnerTimer
+l_OBJC_PROTOCOL_$_WKNavigationDelegate
+l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+-[MSIDLegacyTokenCacheKey getAttributeName:]
+-[MSIDLegacyTokenCacheKey serviceWithAuthority:resource:clientId:]
+-[MSIDLegacyTokenCacheKey initWithAccount:service:generic:type:]
+-[MSIDLegacyTokenCacheKey initWithAuthority:clientId:resource:legacyUserId:]
+-[MSIDLegacyTokenCacheKey account]
+-[MSIDLegacyTokenCacheKey service]
+-[MSIDLegacyTokenCacheKey generic]
++[MSIDLegacyTokenCacheKey supportsSecureCoding]
+-[MSIDLegacyTokenCacheKey initWithCoder:]
+-[MSIDLegacyTokenCacheKey encodeWithCoder:]
+-[MSIDLegacyTokenCacheKey isEqual:]
+-[MSIDLegacyTokenCacheKey isEqualToTokenCacheKey:]
+-[MSIDLegacyTokenCacheKey hash]
+-[MSIDLegacyTokenCacheKey copyWithZone:]
+-[MSIDLegacyTokenCacheKey adalAccountWithUserId:]
+-[MSIDLegacyTokenCacheKey setServiceKeyComponents]
+-[MSIDLegacyTokenCacheKey authority]
+-[MSIDLegacyTokenCacheKey setAuthority:]
+-[MSIDLegacyTokenCacheKey clientId]
+-[MSIDLegacyTokenCacheKey setClientId:]
+-[MSIDLegacyTokenCacheKey resource]
+-[MSIDLegacyTokenCacheKey setResource:]
+-[MSIDLegacyTokenCacheKey legacyUserId]
+-[MSIDLegacyTokenCacheKey setLegacyUserId:]
+-[MSIDLegacyTokenCacheKey .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacyTokenCacheKey._authority
+_OBJC_IVAR_$_MSIDLegacyTokenCacheKey._clientId
+_OBJC_IVAR_$_MSIDLegacyTokenCacheKey._resource
+_OBJC_IVAR_$_MSIDLegacyTokenCacheKey._legacyUserId
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+-[MSIDAADV2TokenResponse idTokenObj]
+-[MSIDAADV2TokenResponse accountType]
+-[MSIDDefaultCredentialCacheQuery init]
+-[MSIDDefaultCredentialCacheQuery account]
+-[MSIDDefaultCredentialCacheQuery service]
+-[MSIDDefaultCredentialCacheQuery serviceForAccessToken]
+-[MSIDDefaultCredentialCacheQuery serviceForRefreshToken]
+-[MSIDDefaultCredentialCacheQuery serviceForIDToken]
+-[MSIDDefaultCredentialCacheQuery generic]
+-[MSIDDefaultCredentialCacheQuery type]
+-[MSIDDefaultCredentialCacheQuery exactMatch]
+-[MSIDDefaultCredentialCacheQuery queryClientId]
+-[MSIDDefaultCredentialCacheQuery targetMatchingOptions]
+-[MSIDDefaultCredentialCacheQuery setTargetMatchingOptions:]
+-[MSIDDefaultCredentialCacheQuery clientIdMatchingOptions]
+-[MSIDDefaultCredentialCacheQuery setClientIdMatchingOptions:]
+-[MSIDDefaultCredentialCacheQuery matchAnyCredentialType]
+-[MSIDDefaultCredentialCacheQuery setMatchAnyCredentialType:]
+-[MSIDDefaultCredentialCacheQuery environmentAliases]
+-[MSIDDefaultCredentialCacheQuery setEnvironmentAliases:]
+-[MSIDDefaultCredentialCacheQuery .cxx_destruct]
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheQuery._targetMatchingOptions
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheQuery._clientIdMatchingOptions
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheQuery._matchAnyCredentialType
+_OBJC_IVAR_$_MSIDDefaultCredentialCacheQuery._environmentAliases
+-[MSIDCacheKey initWithAccount:service:generic:type:]
++[MSIDCacheKey familyClientId:]
+-[MSIDCacheKey logDescription]
+-[MSIDCacheKey piiLogDescription]
+-[MSIDCacheKey account]
+-[MSIDCacheKey service]
+-[MSIDCacheKey type]
+-[MSIDCacheKey generic]
+-[MSIDCacheKey .cxx_destruct]
+-[MSIDLegacyTokenCacheItem isEqual:]
+-[MSIDLegacyTokenCacheItem isEqualToItem:]
+-[MSIDLegacyTokenCacheItem hash]
+-[MSIDLegacyTokenCacheItem copyWithZone:]
++[MSIDLegacyTokenCacheItem supportsSecureCoding]
+-[MSIDLegacyTokenCacheItem initWithCoder:]
+-[MSIDLegacyTokenCacheItem encodeWithCoder:]
+-[MSIDLegacyTokenCacheItem tokenWithType:]
+-[MSIDLegacyTokenCacheItem idTokenClaims]
+-[MSIDLegacyTokenCacheItem isTombstone]
+-[MSIDLegacyTokenCacheItem accessToken]
+-[MSIDLegacyTokenCacheItem setAccessToken:]
+-[MSIDLegacyTokenCacheItem refreshToken]
+-[MSIDLegacyTokenCacheItem setRefreshToken:]
+-[MSIDLegacyTokenCacheItem idToken]
+-[MSIDLegacyTokenCacheItem setIdToken:]
+-[MSIDLegacyTokenCacheItem oauthTokenType]
+-[MSIDLegacyTokenCacheItem setOauthTokenType:]
+-[MSIDLegacyTokenCacheItem authority]
+-[MSIDLegacyTokenCacheItem setAuthority:]
+-[MSIDLegacyTokenCacheItem .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._idTokenClaims
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._accessToken
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._refreshToken
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._idToken
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._oauthTokenType
+_OBJC_IVAR_$_MSIDLegacyTokenCacheItem._authority
++[MSIDJWTHelper createSignedJWTforHeader:payload:signingKey:]
++[MSIDJWTHelper decryptJWT:decryptionKey:]
++[MSIDJWTHelper sign:data:]
++[MSIDJWTHelper JSONFromDictionary:]
++[MSIDTLSHandler load]
++[MSIDTLSHandler resetHandler]
++[MSIDTLSHandler handleChallenge:webview:context:completionHandler:]
++[MSIDTLSHandler isWPJChallenge:]
++[MSIDTLSHandler handleWPJChallenge:context:completionHandler:]
+-[MSIDTelemetryBaseEvent initWithName:requestId:correlationId:]
+-[MSIDTelemetryBaseEvent initWithName:context:]
+-[MSIDTelemetryBaseEvent setProperty:value:]
+-[MSIDTelemetryBaseEvent propertyWithName:]
+-[MSIDTelemetryBaseEvent deleteProperty:]
+-[MSIDTelemetryBaseEvent getProperties]
+-[MSIDTelemetryBaseEvent setStartTime:]
+-[MSIDTelemetryBaseEvent setStopTime:]
+-[MSIDTelemetryBaseEvent setResponseTime:]
+-[MSIDTelemetryBaseEvent addDefaultProperties]
++[MSIDTelemetryBaseEvent defaultParameters]
++[MSIDTelemetryBaseEvent rawDefaultParameters]
+___46+[MSIDTelemetryBaseEvent rawDefaultParameters]_block_invoke
+-[MSIDTelemetryBaseEvent propertyMap]
+-[MSIDTelemetryBaseEvent errorInEvent]
+-[MSIDTelemetryBaseEvent setErrorInEvent:]
+-[MSIDTelemetryBaseEvent .cxx_destruct]
+_OBJC_IVAR_$_MSIDTelemetryBaseEvent._errorInEvent
+_rawDefaultParameters.s_defaultParameters
+_rawDefaultParameters.s_configurationOnce
+l_OBJC_PROTOCOL_$_MSIDTelemetryEventInterface
+l_OBJC_LABEL_PROTOCOL_$_MSIDTelemetryEventInterface
+-[MSIDAADOauth2Factory init]
+-[MSIDAADOauth2Factory checkResponseClass:context:error:]
+-[MSIDAADOauth2Factory tokenResponseFromJSON:context:error:]
+-[MSIDAADOauth2Factory tokenResponseFromJSON:refreshToken:context:error:]
+-[MSIDAADOauth2Factory verifyResponse:context:error:]
+-[MSIDAADOauth2Factory checkCorrelationId:response:]
+-[MSIDAADOauth2Factory fillAccessToken:fromResponse:configuration:]
+-[MSIDAADOauth2Factory fillLegacyToken:fromResponse:configuration:]
+-[MSIDAADOauth2Factory fillRefreshToken:fromResponse:configuration:]
+-[MSIDAADOauth2Factory fillAccount:fromResponse:configuration:]
+-[MSIDAADOauth2Factory fillBaseToken:fromResponse:configuration:]
+-[MSIDAADOauth2Factory webviewFactory]
+-[MSIDAADOauth2Factory authorityFactory]
+-[MSIDAADOauth2Factory .cxx_destruct]
+_OBJC_IVAR_$_MSIDAADOauth2Factory._authorityFactory
+-[MSIDJsonObject init]
+-[MSIDJsonObject initWithJSONData:error:]
+-[MSIDJsonObject initWithJSONDictionary:error:]
+-[MSIDJsonObject copyWithZone:]
+-[MSIDJsonObject jsonDictionary]
+-[MSIDJsonObject serialize:]
+-[MSIDJsonObject isEqualToJsonObject:]
+-[MSIDJsonObject isEqual:]
+-[MSIDJsonObject hash]
+-[MSIDJsonObject .cxx_destruct]
++[MSIDAADNetworkConfiguration initialize]
+-[MSIDAADNetworkConfiguration init]
++[MSIDAADNetworkConfiguration defaultConfiguration]
++[MSIDAADNetworkConfiguration setDefaultConfiguration:]
+-[MSIDAADNetworkConfiguration isAADPublicCloud:]
+-[MSIDAADNetworkConfiguration trustedHosts]
+-[MSIDAADNetworkConfiguration endpointProvider]
+-[MSIDAADNetworkConfiguration setEndpointProvider:]
+-[MSIDAADNetworkConfiguration aadApiVersion]
+-[MSIDAADNetworkConfiguration setAadApiVersion:]
+-[MSIDAADNetworkConfiguration aadAuthorityDiscoveryApiVersion]
+-[MSIDAADNetworkConfiguration setAadAuthorityDiscoveryApiVersion:]
+-[MSIDAADNetworkConfiguration drsDiscoveryApiVersion]
+-[MSIDAADNetworkConfiguration setDrsDiscoveryApiVersion:]
+-[MSIDAADNetworkConfiguration .cxx_destruct]
+_s_defaultConfiguration
+_s_trustedHostList
+_OBJC_IVAR_$_MSIDAADNetworkConfiguration._endpointProvider
+_OBJC_IVAR_$_MSIDAADNetworkConfiguration._aadAuthorityDiscoveryApiVersion
+_OBJC_IVAR_$_MSIDAADNetworkConfiguration._drsDiscoveryApiVersion
+_OBJC_IVAR_$_MSIDAADNetworkConfiguration._aadApiVersion
++[MSIDUserInformation supportsSecureCoding]
+-[MSIDUserInformation initWithRawIdToken:]
+-[MSIDUserInformation initWithCoder:]
+-[MSIDUserInformation idTokenClaims]
+-[MSIDUserInformation encodeWithCoder:]
+-[MSIDUserInformation rawIdToken]
+-[MSIDUserInformation .cxx_destruct]
+_OBJC_IVAR_$_MSIDUserInformation._rawIdToken
+-[MSIDAADAuthorityMetadataResponseSerializer responseObjectForResponse:data:context:error:]
+-[MSIDAADTokenResponse correlationId]
+-[MSIDAADTokenResponse resource]
+-[MSIDAADTokenResponse rawClientInfo]
+-[MSIDAADTokenResponse setRawClientInfo:]
+-[MSIDAADTokenResponse familyId]
+-[MSIDAADTokenResponse refreshToken]
+-[MSIDAADTokenResponse setRefreshToken:]
+-[MSIDAADTokenResponse speInfo]
+-[MSIDAADTokenResponse suberror]
+-[MSIDAADTokenResponse initWithJSONDictionary:refreshToken:error:]
+-[MSIDAADTokenResponse initWithJSONDictionary:error:]
+-[MSIDAADTokenResponse initDerivedProperties]
+-[MSIDAADTokenResponse expiresOn]
+-[MSIDAADTokenResponse setExpiresOn:]
+-[MSIDAADTokenResponse extendedExpiresIn]
+-[MSIDAADTokenResponse setExtendedExpiresIn:]
+-[MSIDAADTokenResponse expiryDate]
+-[MSIDAADTokenResponse additionalServerInfo]
+-[MSIDAADTokenResponse clientInfo]
+-[MSIDAADTokenResponse extendedExpiresOnDate]
+-[MSIDAADTokenResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDAADTokenResponse._clientInfo
+_OBJC_IVAR_$_MSIDAADTokenResponse._extendedExpiresOnDate
++[MSIDWorkPlaceJoinUtil getRegistrationInformation:error:]
+-[MSIDAccessToken copyWithZone:]
+-[MSIDAccessToken isEqual:]
+-[MSIDAccessToken hash]
+-[MSIDAccessToken isEqualToItem:]
+-[MSIDAccessToken initWithTokenCacheItem:]
+-[MSIDAccessToken tokenCacheItem]
+-[MSIDAccessToken credentialType]
+-[MSIDAccessToken isExpiredWithExpiryBuffer:]
+-[MSIDAccessToken isExpired]
+-[MSIDAccessToken extendedExpireTime]
+-[MSIDAccessToken isExtendedLifetimeValid]
+-[MSIDAccessToken resource]
+-[MSIDAccessToken setResource:]
+-[MSIDAccessToken scopes]
+-[MSIDAccessToken setScopes:]
+-[MSIDAccessToken description]
+-[MSIDAccessToken expiresOn]
+-[MSIDAccessToken setExpiresOn:]
+-[MSIDAccessToken cachedAt]
+-[MSIDAccessToken setCachedAt:]
+-[MSIDAccessToken accessToken]
+-[MSIDAccessToken setAccessToken:]
+-[MSIDAccessToken target]
+-[MSIDAccessToken setTarget:]
+-[MSIDAccessToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDAccessToken._expiresOn
+_OBJC_IVAR_$_MSIDAccessToken._cachedAt
+_OBJC_IVAR_$_MSIDAccessToken._target
+-[MSIDLegacyAccessToken copyWithZone:]
+-[MSIDLegacyAccessToken isEqual:]
+-[MSIDLegacyAccessToken hash]
+-[MSIDLegacyAccessToken isEqualToItem:]
+-[MSIDLegacyAccessToken tokenCacheItem]
+-[MSIDLegacyAccessToken initWithLegacyTokenCacheItem:]
+-[MSIDLegacyAccessToken legacyTokenCacheItem]
+-[MSIDLegacyAccessToken credentialType]
+-[MSIDLegacyAccessToken description]
+-[MSIDLegacyAccessToken accessTokenType]
+-[MSIDLegacyAccessToken setAccessTokenType:]
+-[MSIDLegacyAccessToken idToken]
+-[MSIDLegacyAccessToken setIdToken:]
+-[MSIDLegacyAccessToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacyAccessToken._idToken
+_OBJC_IVAR_$_MSIDLegacyAccessToken._accessTokenType
+-[MSIDAADAuthorityValidationRequest initWithUrl:context:]
+-[MSIDIdToken copyWithZone:]
+-[MSIDIdToken isEqual:]
+-[MSIDIdToken hash]
+-[MSIDIdToken isEqualToItem:]
+-[MSIDIdToken initWithTokenCacheItem:]
+-[MSIDIdToken tokenCacheItem]
+-[MSIDIdToken credentialType]
+-[MSIDIdToken description]
+-[MSIDIdToken rawIdToken]
+-[MSIDIdToken setRawIdToken:]
+-[MSIDIdToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDIdToken._rawIdToken
+-[MSIDURLSessionDelegate URLSession:didReceiveChallenge:completionHandler:]
+-[MSIDURLSessionDelegate URLSession:task:didReceiveChallenge:completionHandler:]
+-[MSIDURLSessionDelegate URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[MSIDURLSessionDelegate sessionDidReceiveAuthenticationChallengeBlock]
+-[MSIDURLSessionDelegate setSessionDidReceiveAuthenticationChallengeBlock:]
+-[MSIDURLSessionDelegate taskDidReceiveAuthenticationChallengeBlock]
+-[MSIDURLSessionDelegate setTaskDidReceiveAuthenticationChallengeBlock:]
+-[MSIDURLSessionDelegate taskWillPerformHTTPRedirectionBlock]
+-[MSIDURLSessionDelegate setTaskWillPerformHTTPRedirectionBlock:]
+-[MSIDURLSessionDelegate .cxx_destruct]
+_OBJC_IVAR_$_MSIDURLSessionDelegate._sessionDidReceiveAuthenticationChallengeBlock
+_OBJC_IVAR_$_MSIDURLSessionDelegate._taskDidReceiveAuthenticationChallengeBlock
+_OBJC_IVAR_$_MSIDURLSessionDelegate._taskWillPerformHTTPRedirectionBlock
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+-[MSIDIdTokenClaims subject]
+-[MSIDIdTokenClaims preferredUsername]
+-[MSIDIdTokenClaims name]
+-[MSIDIdTokenClaims givenName]
+-[MSIDIdTokenClaims familyName]
+-[MSIDIdTokenClaims middleName]
+-[MSIDIdTokenClaims email]
+-[MSIDIdTokenClaims initWithRawIdToken:error:]
+-[MSIDIdTokenClaims initWithJSONDictionary:error:]
+-[MSIDIdTokenClaims initDerivedProperties]
+-[MSIDIdTokenClaims matchesLegacyUserId:]
+-[MSIDIdTokenClaims username]
+-[MSIDIdTokenClaims alternativeAccountId]
+-[MSIDIdTokenClaims realm]
+-[MSIDIdTokenClaims uniqueId]
+-[MSIDIdTokenClaims userId]
+-[MSIDIdTokenClaims userIdDisplayable]
+-[MSIDIdTokenClaims rawIdToken]
+-[MSIDIdTokenClaims .cxx_destruct]
+_OBJC_IVAR_$_MSIDIdTokenClaims._rawIdToken
+-[NSData(JWT) signHashWithPrivateKey:]
++[MSIDWebviewAuthorization startEmbeddedWebviewAuthWithConfiguration:oauth2Factory:context:completionHandler:]
++[MSIDWebviewAuthorization startEmbeddedWebviewAuthWithConfiguration:oauth2Factory:webview:context:completionHandler:]
++[MSIDWebviewAuthorization startSystemWebviewAuthWithConfiguration:oauth2Factory:useAuthenticationSession:allowSafariViewController:context:completionHandler:]
++[MSIDWebviewAuthorization startSession:context:completionHandler:]
+___67+[MSIDWebviewAuthorization startSession:context:completionHandler:]_block_invoke
++[MSIDWebviewAuthorization setCurrentSession:]
++[MSIDWebviewAuthorization clearCurrentWebAuthSessionAndFactory]
++[MSIDWebviewAuthorization currentSession]
++[MSIDWebviewAuthorization cancelCurrentSession]
++[MSIDWebviewAuthorization handleURLResponseForSystemWebviewController:]
+_s_currentSession
+-[MSIDBrokerResponse authority]
+-[MSIDBrokerResponse clientId]
+-[MSIDBrokerResponse resource]
+-[MSIDBrokerResponse accessToken]
+-[MSIDBrokerResponse refreshToken]
+-[MSIDBrokerResponse expiresOn]
+-[MSIDBrokerResponse idToken]
+-[MSIDBrokerResponse familyId]
+-[MSIDBrokerResponse brokerAppVer]
+-[MSIDBrokerResponse validAuthority]
+-[MSIDBrokerResponse correlationId]
+-[MSIDBrokerResponse errorCode]
+-[MSIDBrokerResponse errorDescription]
+-[MSIDBrokerResponse clientInfo]
+-[MSIDBrokerResponse initWithDictionary:error:]
+-[MSIDBrokerResponse oauthErrorCode]
+-[MSIDBrokerResponse tokenResponse]
+-[MSIDBrokerResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDBrokerResponse._tokenResponse
+-[MSIDLegacyRefreshToken copyWithZone:]
+-[MSIDLegacyRefreshToken isEqual:]
+-[MSIDLegacyRefreshToken hash]
+-[MSIDLegacyRefreshToken isEqualToItem:]
+-[MSIDLegacyRefreshToken tokenCacheItem]
+-[MSIDLegacyRefreshToken initWithLegacyTokenCacheItem:]
+-[MSIDLegacyRefreshToken legacyTokenCacheItem]
+-[MSIDLegacyRefreshToken credentialType]
+-[MSIDLegacyRefreshToken description]
+-[MSIDLegacyRefreshToken idToken]
+-[MSIDLegacyRefreshToken setIdToken:]
+-[MSIDLegacyRefreshToken realm]
+-[MSIDLegacyRefreshToken setRealm:]
+-[MSIDLegacyRefreshToken .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacyRefreshToken._idToken
+_OBJC_IVAR_$_MSIDLegacyRefreshToken._realm
+-[MSIDLegacyTokenCacheQuery account]
+-[MSIDLegacyTokenCacheQuery service]
+-[MSIDLegacyTokenCacheQuery exactMatch]
+-[MSIDLegacyTokenCacheAccessor initWithDataSource:otherCacheAccessors:factory:]
+-[MSIDLegacyTokenCacheAccessor saveTokensWithConfiguration:response:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveTokensWithBrokerResponse:saveSSOStateOnly:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveSSOStateWithConfiguration:response:context:error:]
+-[MSIDLegacyTokenCacheAccessor getRefreshTokenWithAccount:familyId:configuration:context:error:]
+-[MSIDLegacyTokenCacheAccessor clearWithContext:error:]
+-[MSIDLegacyTokenCacheAccessor allAccountsForAuthority:clientId:familyId:context:error:]
+___88-[MSIDLegacyTokenCacheAccessor allAccountsForAuthority:clientId:familyId:context:error:]_block_invoke
+-[MSIDLegacyTokenCacheAccessor accountForIdentifier:familyId:configuration:context:error:]
+-[MSIDLegacyTokenCacheAccessor getAccessTokenForAccount:configuration:context:error:]
+-[MSIDLegacyTokenCacheAccessor getSingleResourceTokenForAccount:configuration:context:error:]
+-[MSIDLegacyTokenCacheAccessor validateAndRemoveRefreshToken:context:error:]
+-[MSIDLegacyTokenCacheAccessor removeAccessToken:context:error:]
+-[MSIDLegacyTokenCacheAccessor clearCacheForAccount:context:error:]
+-[MSIDLegacyTokenCacheAccessor clearCacheForAccount:clientId:context:error:]
+-[MSIDLegacyTokenCacheAccessor fillInternalErrorWithMessage:context:error:]
+-[MSIDLegacyTokenCacheAccessor getRefreshTokenForAccountImpl:familyId:configuration:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveAccessTokenWithConfiguration:response:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveRefreshTokenWithConfiguration:response:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveLegacySingleResourceTokenWithConfiguration:response:context:error:]
+-[MSIDLegacyTokenCacheAccessor saveToken:cacheItem:userId:context:error:]
+-[MSIDLegacyTokenCacheAccessor allTokensWithContext:error:]
+-[MSIDLegacyTokenCacheAccessor removeTokenCacheItem:userId:context:error:]
+-[MSIDLegacyTokenCacheAccessor getTokenByLegacyUserId:type:authority:lookupAliases:clientId:resource:context:error:]
+-[MSIDLegacyTokenCacheAccessor getTokenByHomeAccountId:tokenType:authority:lookupAliases:clientId:resource:context:error:]
+___122-[MSIDLegacyTokenCacheAccessor getTokenByHomeAccountId:tokenType:authority:lookupAliases:clientId:resource:context:error:]_block_invoke
+___copy_helper_block_.293
+___destroy_helper_block_.294
+-[MSIDLegacyTokenCacheAccessor authorityFactory]
+-[MSIDLegacyTokenCacheAccessor setAuthorityFactory:]
+-[MSIDLegacyTokenCacheAccessor .cxx_destruct]
+_OBJC_IVAR_$_MSIDLegacyTokenCacheAccessor._dataSource
+_OBJC_IVAR_$_MSIDLegacyTokenCacheAccessor._serializer
+_OBJC_IVAR_$_MSIDLegacyTokenCacheAccessor._otherAccessors
+_OBJC_IVAR_$_MSIDLegacyTokenCacheAccessor._factory
+_OBJC_IVAR_$_MSIDLegacyTokenCacheAccessor._authorityFactory
+___block_descriptor_tmp.295
++[NSDictionary(MSIDExtensions) msidDictionaryFromQueryString:]
++[NSDictionary(MSIDExtensions) msidDictionaryFromWWWFormURLEncodedString:]
++[NSDictionary(MSIDExtensions) msidDictionaryFromQueryString:WWWURLFormDecode:]
++[NSDictionary(MSIDExtensions) msidDictionaryFromJsonData:error:]
+-[NSDictionary(MSIDExtensions) msidWWWFormURLEncode]
+-[NSDictionary(MSIDExtensions) dictionaryByRemovingFields:]
+-[NSDictionary(MSIDExtensions) msidAssertType:ofField:context:errorCode:error:]
+-[NSDictionary(MSIDExtensions) msidAssertContainsField:context:error:]
++[MSIDAccountTypeHelpers accountTypeAsString:]
++[MSIDAccountTypeHelpers accountTypeFromString:]
+___48+[MSIDAccountTypeHelpers accountTypeFromString:]_block_invoke
+_sAccountTypes
+_accountTypeFromString:.sAccountTypesOnce
+-[MSIDAADV1AuthorizationCodeRequest initWithEndpoint:clientId:redirectUri:scope:loginHint:resource:context:]
+-[MSIDHttpRequest init]
+-[MSIDHttpRequest sendWithBlock:]
+___33-[MSIDHttpRequest sendWithBlock:]_block_invoke
+-[MSIDHttpRequest sessionManager]
+-[MSIDHttpRequest setSessionManager:]
+-[MSIDHttpRequest parameters]
+-[MSIDHttpRequest setParameters:]
+-[MSIDHttpRequest urlRequest]
+-[MSIDHttpRequest setUrlRequest:]
+-[MSIDHttpRequest requestSerializer]
+-[MSIDHttpRequest setRequestSerializer:]
+-[MSIDHttpRequest responseSerializer]
+-[MSIDHttpRequest setResponseSerializer:]
+-[MSIDHttpRequest telemetry]
+-[MSIDHttpRequest setTelemetry:]
+-[MSIDHttpRequest errorHandler]
+-[MSIDHttpRequest setErrorHandler:]
+-[MSIDHttpRequest context]
+-[MSIDHttpRequest setContext:]
+-[MSIDHttpRequest retryCounter]
+-[MSIDHttpRequest setRetryCounter:]
+-[MSIDHttpRequest retryInterval]
+-[MSIDHttpRequest setRetryInterval:]
+-[MSIDHttpRequest .cxx_destruct]
+_OBJC_IVAR_$_MSIDHttpRequest._sessionManager
+_OBJC_IVAR_$_MSIDHttpRequest._retryCounter
+_OBJC_IVAR_$_MSIDHttpRequest._retryInterval
+l_OBJC_PROTOCOL_$_MSIDHttpRequestProtocol
+l_OBJC_LABEL_PROTOCOL_$_MSIDHttpRequestProtocol
+-[MSIDTelemetryHttpEvent initWithName:requestId:correlationId:]
+-[MSIDTelemetryHttpEvent setHttpMethod:]
+-[MSIDTelemetryHttpEvent setHttpPath:]
+-[MSIDTelemetryHttpEvent setHttpRequestIdHeader:]
+-[MSIDTelemetryHttpEvent setHttpResponseCode:]
+-[MSIDTelemetryHttpEvent setHttpErrorCode:]
+-[MSIDTelemetryHttpEvent setOAuthErrorCodeFromResponseData:]
+-[MSIDTelemetryHttpEvent setHttpResponseMethod:]
+-[MSIDTelemetryHttpEvent setHttpRequestQueryParams:]
+-[MSIDTelemetryHttpEvent setHttpUserAgent:]
+-[MSIDTelemetryHttpEvent setHttpErrorDomain:]
+-[MSIDTelemetryHttpEvent setClientTelemetry:]
+-[NSString(MSIDTelemetryExtensions) msidParsedClientTelemetry]
++[MSIDCredentialTypeHelpers credentialTypeAsString:]
++[MSIDCredentialTypeHelpers credentialTypeFromString:]
+___54+[MSIDCredentialTypeHelpers credentialTypeFromString:]_block_invoke
++[MSIDCredentialTypeHelpers credentialTypeWithRefreshToken:accessToken:]
+_sCredentialTypes
+_credentialTypeFromString:.sCredentialTypesOnce
+-[MSIDWebviewResponse initWithURL:context:error:]
+-[MSIDWebviewResponse parameters]
+-[MSIDWebviewResponse url]
+-[MSIDWebviewResponse .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebviewResponse._url
+_OBJC_IVAR_$_MSIDWebviewResponse._parameters
++[MSIDTelemetryPiiOiiRules initialize]
++[MSIDTelemetryPiiOiiRules isPii:]
++[MSIDTelemetryPiiOiiRules isOii:]
++[MSIDTelemetryPiiOiiRules isPiiOrOii:]
+__piiFields
+__oiiFields
+-[MSIDOpenIdProviderMetadata authorizationEndpoint]
+-[MSIDOpenIdProviderMetadata setAuthorizationEndpoint:]
+-[MSIDOpenIdProviderMetadata tokenEndpoint]
+-[MSIDOpenIdProviderMetadata setTokenEndpoint:]
+-[MSIDOpenIdProviderMetadata issuer]
+-[MSIDOpenIdProviderMetadata setIssuer:]
+-[MSIDOpenIdProviderMetadata .cxx_destruct]
+_OBJC_IVAR_$_MSIDOpenIdProviderMetadata._authorizationEndpoint
+_OBJC_IVAR_$_MSIDOpenIdProviderMetadata._tokenEndpoint
+_OBJC_IVAR_$_MSIDOpenIdProviderMetadata._issuer
+-[MSIDAADWebviewFactory authorizationParametersFromConfiguration:requestState:]
+-[MSIDAADWebviewFactory embeddedWebviewSessionFromConfiguration:customWebview:context:]
+-[MSIDAADWebviewFactory responseWithURL:requestState:ignoreInvalidState:context:error:]
++[MSIDAadAuthorityCache sharedInstance]
+___39+[MSIDAadAuthorityCache sharedInstance]_block_invoke
+-[MSIDAadAuthorityCache processMetadata:openIdConfigEndpoint:authority:context:completion:]
+___91-[MSIDAadAuthorityCache processMetadata:openIdConfigEndpoint:authority:context:completion:]_block_invoke
+___91-[MSIDAadAuthorityCache processMetadata:openIdConfigEndpoint:authority:context:completion:]_block_invoke_2
+___copy_helper_block_.6
+___destroy_helper_block_.7
+-[MSIDAadAuthorityCache processImpl:authority:openIdConfigEndpoint:context:error:]
+_VerifyHostString
+-[MSIDAadAuthorityCache addInvalidRecord:oauthError:context:]
+-[MSIDAadAuthorityCache networkUrlForAuthority:context:]
+-[MSIDAadAuthorityCache cacheUrlForAuthority:context:]
+-[MSIDAadAuthorityCache cacheEnvironmentForEnvironment:context:]
+-[MSIDAadAuthorityCache cacheAliasesForAuthority:]
+-[MSIDAadAuthorityCache cacheAliasesForEnvironment:]
+-[MSIDAadAuthorityCache networkUrlForAuthorityImpl:]
+_urlForPreferredHost
+-[MSIDAadAuthorityCache cacheUrlForAuthorityImpl:]
+-[MSIDAadAuthorityCache cacheEnvironmentForEnvironmentImpl:]
+-[MSIDAadAuthorityCache cacheAliasesForAuthorityImpl:]
+-[MSIDAadAuthorityCache cacheAliasesForEnvironmentImpl:]
+_sharedInstance.onceToken
+___block_descriptor_tmp.8
+-[MSIDWebOAuth2Response initWithURL:requestState:ignoreInvalidState:context:error:]
+-[MSIDWebOAuth2Response initWithURL:context:error:]
++[MSIDWebOAuth2Response oauthErrorFromParameters:]
++[MSIDWebOAuth2Response verifyRequestState:responseURL:error:]
+-[MSIDWebOAuth2Response authorizationCode]
+-[MSIDWebOAuth2Response oauthError]
+-[MSIDWebOAuth2Response .cxx_destruct]
+_OBJC_IVAR_$_MSIDWebOAuth2Response._authorizationCode
+_OBJC_IVAR_$_MSIDWebOAuth2Response._oauthError
+-[MSIDAccountCredentialCache initWithDataSource:]
+-[MSIDAccountCredentialCache getCredentialsWithQuery:legacyUserId:context:error:]
+-[MSIDAccountCredentialCache getCredential:context:error:]
+-[MSIDAccountCredentialCache getAllCredentialsWithType:context:error:]
+-[MSIDAccountCredentialCache getAccountsWithQuery:context:error:]
+-[MSIDAccountCredentialCache getAccount:context:error:]
+-[MSIDAccountCredentialCache getAllAccountsWithType:context:error:]
+-[MSIDAccountCredentialCache getAllItemsWithContext:error:]
+-[MSIDAccountCredentialCache saveCredential:context:error:]
+-[MSIDAccountCredentialCache saveAccount:context:error:]
+-[MSIDAccountCredentialCache removeCredetialsWithQuery:context:error:]
+-[MSIDAccountCredentialCache removeCredential:context:error:]
+-[MSIDAccountCredentialCache removeAccountsWithQuery:context:error:]
+-[MSIDAccountCredentialCache removeAccount:context:error:]
+-[MSIDAccountCredentialCache clearWithContext:error:]
+-[MSIDAccountCredentialCache removeAllCredentials:context:error:]
+-[MSIDAccountCredentialCache removeAllAccounts:context:error:]
+-[MSIDAccountCredentialCache wipeInfoWithContext:error:]
+-[MSIDAccountCredentialCache saveWipeInfoWithContext:error:]
+-[MSIDAccountCredentialCache .cxx_destruct]
+_OBJC_IVAR_$_MSIDAccountCredentialCache._dataSource
+_OBJC_IVAR_$_MSIDAccountCredentialCache._serializer
+-[MSIDAccountCacheItem isEqual:]
+-[MSIDAccountCacheItem isEqualToItem:]
+-[MSIDAccountCacheItem hash]
+-[MSIDAccountCacheItem copyWithZone:]
+-[MSIDAccountCacheItem initWithJSONDictionary:error:]
+-[MSIDAccountCacheItem jsonDictionary]
+-[MSIDAccountCacheItem updateFieldsFromAccount:]
+-[MSIDAccountCacheItem matchesWithHomeAccountId:environment:environmentAliases:]
+-[MSIDAccountCacheItem accountType]
+-[MSIDAccountCacheItem setAccountType:]
+-[MSIDAccountCacheItem homeAccountId]
+-[MSIDAccountCacheItem setHomeAccountId:]
+-[MSIDAccountCacheItem environment]
+-[MSIDAccountCacheItem setEnvironment:]
+-[MSIDAccountCacheItem localAccountId]
+-[MSIDAccountCacheItem setLocalAccountId:]
+-[MSIDAccountCacheItem username]
+-[MSIDAccountCacheItem setUsername:]
+-[MSIDAccountCacheItem givenName]
+-[MSIDAccountCacheItem setGivenName:]
+-[MSIDAccountCacheItem middleName]
+-[MSIDAccountCacheItem setMiddleName:]
+-[MSIDAccountCacheItem familyName]
+-[MSIDAccountCacheItem setFamilyName:]
+-[MSIDAccountCacheItem name]
+-[MSIDAccountCacheItem setName:]
+-[MSIDAccountCacheItem realm]
+-[MSIDAccountCacheItem setRealm:]
+-[MSIDAccountCacheItem clientInfo]
+-[MSIDAccountCacheItem setClientInfo:]
+-[MSIDAccountCacheItem alternativeAccountId]
+-[MSIDAccountCacheItem setAlternativeAccountId:]
+-[MSIDAccountCacheItem additionalAccountFields]
+-[MSIDAccountCacheItem setAdditionalAccountFields:]
+-[MSIDAccountCacheItem json]
+-[MSIDAccountCacheItem setJson:]
+-[MSIDAccountCacheItem .cxx_destruct]
+_OBJC_IVAR_$_MSIDAccountCacheItem._json
+_OBJC_IVAR_$_MSIDAccountCacheItem._accountType
+_OBJC_IVAR_$_MSIDAccountCacheItem._localAccountId
+_OBJC_IVAR_$_MSIDAccountCacheItem._homeAccountId
+_OBJC_IVAR_$_MSIDAccountCacheItem._username
+_OBJC_IVAR_$_MSIDAccountCacheItem._givenName
+_OBJC_IVAR_$_MSIDAccountCacheItem._middleName
+_OBJC_IVAR_$_MSIDAccountCacheItem._familyName
+_OBJC_IVAR_$_MSIDAccountCacheItem._name
+_OBJC_IVAR_$_MSIDAccountCacheItem._realm
+_OBJC_IVAR_$_MSIDAccountCacheItem._clientInfo
+_OBJC_IVAR_$_MSIDAccountCacheItem._environment
+_OBJC_IVAR_$_MSIDAccountCacheItem._alternativeAccountId
+_OBJC_IVAR_$_MSIDAccountCacheItem._additionalAccountFields
+-[MSIDTelemetryUIEvent initWithName:requestId:correlationId:]
+-[MSIDTelemetryUIEvent setLoginHint:]
+-[MSIDTelemetryUIEvent setNtlm:]
+-[MSIDTelemetryUIEvent setIsCancelled:]
+-[MSIDAADOAuthEmbeddedWebviewController initWithStartURL:endURL:webview:customHeaders:context:]
+-[MSIDAADOAuthEmbeddedWebviewController decidePolicyForNavigationAction:webview:decisionHandler:]
+___97-[MSIDAADOAuthEmbeddedWebviewController decidePolicyForNavigationAction:webview:decisionHandler:]_block_invoke
+-[MSIDSafariViewController initWithURL:parentController:context:]
+-[MSIDSafariViewController cancel]
+-[MSIDSafariViewController startWithCompletionHandler:]
+___55-[MSIDSafariViewController startWithCompletionHandler:]_block_invoke
+-[MSIDSafariViewController handleURLResponse:]
+-[MSIDSafariViewController completeSessionWithResponse:context:error:]
+___70-[MSIDSafariViewController completeSessionWithResponse:context:error:]_block_invoke
+___70-[MSIDSafariViewController completeSessionWithResponse:context:error:]_block_invoke_2
+___copy_helper_block_.43
+___destroy_helper_block_.44
+___copy_helper_block_.48
+___destroy_helper_block_.49
+-[MSIDSafariViewController safariViewControllerDidFinish:]
+-[MSIDSafariViewController startURL]
+-[MSIDSafariViewController parentController]
+-[MSIDSafariViewController setParentController:]
+-[MSIDSafariViewController .cxx_destruct]
+_OBJC_IVAR_$_MSIDSafariViewController._startURL
+_OBJC_IVAR_$_MSIDSafariViewController._context
+_OBJC_IVAR_$_MSIDSafariViewController._safariViewController
+_OBJC_IVAR_$_MSIDSafariViewController._parentController
+_OBJC_IVAR_$_MSIDSafariViewController._completionHandler
+_OBJC_IVAR_$_MSIDSafariViewController._telemetryRequestId
+_OBJC_IVAR_$_MSIDSafariViewController._telemetryEvent
+___block_descriptor_tmp.50
+l_OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+-[MSIDDefaultAccountCacheKey accountTypeNumber:]
+-[MSIDDefaultAccountCacheKey initWithHomeAccountId:environment:realm:type:]
+-[MSIDDefaultAccountCacheKey generic]
+-[MSIDDefaultAccountCacheKey type]
+-[MSIDDefaultAccountCacheKey account]
+-[MSIDDefaultAccountCacheKey service]
+-[MSIDDefaultAccountCacheKey homeAccountId]
+-[MSIDDefaultAccountCacheKey setHomeAccountId:]
+-[MSIDDefaultAccountCacheKey environment]
+-[MSIDDefaultAccountCacheKey setEnvironment:]
+-[MSIDDefaultAccountCacheKey username]
+-[MSIDDefaultAccountCacheKey setUsername:]
+-[MSIDDefaultAccountCacheKey realm]
+-[MSIDDefaultAccountCacheKey setRealm:]
+-[MSIDDefaultAccountCacheKey accountType]
+-[MSIDDefaultAccountCacheKey setAccountType:]
+-[MSIDDefaultAccountCacheKey .cxx_destruct]
+_OBJC_IVAR_$_MSIDDefaultAccountCacheKey._homeAccountId
+_OBJC_IVAR_$_MSIDDefaultAccountCacheKey._environment
+_OBJC_IVAR_$_MSIDDefaultAccountCacheKey._realm
+_OBJC_IVAR_$_MSIDDefaultAccountCacheKey._accountType
+_OBJC_IVAR_$_MSIDDefaultAccountCacheKey._username
